@@ -2,7 +2,7 @@
 title: "Welcome!"
 ---
 
-This is a Quarto website.
+This is toolkit, taking inspiration from Bellingcat's Online Investigative Toolkit 
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
