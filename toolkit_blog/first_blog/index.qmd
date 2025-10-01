@@ -1,0 +1,7 @@
+---
+title: "First blog post"
+author: Greg Brooks
+date: today
+---
+
+# Header
