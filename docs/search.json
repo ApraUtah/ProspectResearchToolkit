@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Toolkit Tutorials",
+    "section": "",
+    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
@@ -11,6 +18,34 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "This toolkit is maintained by Greg Brooks in association with Apra Utah."
+  },
+  {
+    "objectID": "toolkit_tutorials/index.html",
+    "href": "toolkit_tutorials/index.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "toolkit_tutorials/tutorial2/index.html",
+    "href": "toolkit_tutorials/tutorial2/index.html",
+    "title": "tutorial2",
+    "section": "",
+    "text": "Header"
+  },
+  {
+    "objectID": "toolkit_blog/index.html",
+    "href": "toolkit_blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Toolkit Tutorials",
+    "section": "",
+    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -4,12 +4,16 @@ project:
 
 website:
   title: "Prospect Research Toolkit"
-open-graph: true
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: tutorials.qmd
+        text: Tutorials
+      - href: blog.qmd
+        text: Blog
+
 
 format:
   html:

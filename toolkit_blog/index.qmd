@@ -1,0 +1,6 @@
+---
+title: "Blog"
+listing:
+  contents: toolkit_blog  # <-- the sub-directory with blog content
+  type: default          # <-- my preferred layout type
+---
