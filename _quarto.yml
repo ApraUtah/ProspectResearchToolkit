@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Prospect Research Toolkit"
+open-graph: true
   navbar:
     left:
       - href: index.qmd
