@@ -1,0 +1,9 @@
+---
+title: "Welcome!"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Following this tutorial to build this out <https://www.danyavorsky.com/posts/020-quarto-websites/>.
