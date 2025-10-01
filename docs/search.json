@@ -4,14 +4,42 @@
     "href": "tutorials.html",
     "title": "Toolkit Tutorials",
     "section": "",
-    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial1\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "toolkit_tutorials/tutorial1/index.html",
+    "href": "toolkit_tutorials/tutorial1/index.html",
+    "title": "tutorial1",
+    "section": "",
+    "text": "Header"
+  },
+  {
+    "objectID": "toolkit_blog/index.html",
+    "href": "toolkit_blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nFollowing this tutorial to build this out https://www.danyavorsky.com/posts/020-quarto-websites/."
+    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit"
+  },
+  {
+    "objectID": "index.html#long-term",
+    "href": "index.html#long-term",
+    "title": "Welcome!",
+    "section": "Long-term",
+    "text": "Long-term\nOne day, I’d like to have free software available for truly small shops - a natural phase 2 or 3 of this toolkit, which is currently just being initialized and collated as a library of stuff."
+  },
+  {
+    "objectID": "index.html#tutorials-docs-im-learning-from",
+    "href": "index.html#tutorials-docs-im-learning-from",
+    "title": "Welcome!",
+    "section": "Tutorials & Docs I’m learning from:",
+    "text": "Tutorials & Docs I’m learning from:\nQuarto: https://quarto.org/docs/websites. Environment: https://www.danyavorsky.com/posts/020-quarto-websites/."
   },
   {
     "objectID": "about.html",
@@ -19,6 +47,20 @@
     "title": "About",
     "section": "",
     "text": "This toolkit is maintained by Greg Brooks in association with Apra Utah."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Toolkit Blog",
+    "section": "",
+    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst blog post\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "toolkit_blog/first_blog/index.html",
+    "href": "toolkit_blog/first_blog/index.html",
+    "title": "First blog post",
+    "section": "",
+    "text": "Header"
   },
   {
     "objectID": "toolkit_tutorials/index.html",
@@ -33,19 +75,5 @@
     "title": "tutorial2",
     "section": "",
     "text": "Header"
-  },
-  {
-    "objectID": "toolkit_blog/index.html",
-    "href": "toolkit_blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Toolkit Tutorials",
-    "section": "",
-    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
