@@ -1,8 +1,8 @@
 ---
-title: "Toolkit Tutorials"
+title: "Toolkit Blog"
 format: html
 listing: 
-    contents: toolkit_tutorials
+    contents: toolkit_blog
     type: grid
 ---
 
