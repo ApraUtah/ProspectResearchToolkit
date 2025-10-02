@@ -32,11 +32,36 @@
     "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
   },
   {
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Excel templates\n\n\nother templates (?)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Toolkit Blog",
+    "section": "",
+    "text": "Let’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Tutorials & Blog",
+      "Toolkit Blog"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This toolkit is maintained by Greg Brooks in association with Apra Utah."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Prospect Research Toolkit",
     "section": "",
-    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.",
+    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nAs one of my colleagues once pointed out, prospect research can seem like “panning for gold” - an apt metaphor, because you can pan for gold by hand (e.g. individual data validations for 1 specific person) or on an industrial level (e.g. segmenting and rating thousands of names for future research). The theme of this toolkit, aesthetically, is “Prospectin’ in Philanthropy Country” - and hopefully adds some color / whimsy to what might otherwise be a somewhat boring website!",
     "crumbs": [
       "Prospect Research Toolkit"
     ]
@@ -52,31 +77,13 @@
     ]
   },
   {
-    "objectID": "index.html#tutorials-docs-used-to-create-this-website",
-    "href": "index.html#tutorials-docs-used-to-create-this-website",
+    "objectID": "index.html#tutorials-docs-being-used-to-create-this-website",
+    "href": "index.html#tutorials-docs-being-used-to-create-this-website",
     "title": "Prospect Research Toolkit",
-    "section": "Tutorials & Docs used to create this website",
-    "text": "Tutorials & Docs used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them",
+    "section": "Tutorials & Docs being used to create this website",
+    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources",
     "crumbs": [
       "Prospect Research Toolkit"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This toolkit is maintained by Greg Brooks in association with Apra Utah."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Toolkit Blog",
-    "section": "",
-    "text": "Let’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Tutorials & Blog",
-      "Toolkit Blog"
     ]
   },
   {
