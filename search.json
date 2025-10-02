@@ -4,21 +4,14 @@
     "href": "tutorials.html",
     "title": "Toolkit Tutorials",
     "section": "",
-    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of Cars\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of Cars - an example from quarto\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "toolkit_tutorials/tutorial1/index.html",
-    "href": "toolkit_tutorials/tutorial1/index.html",
-    "title": "Analysis of Cars",
+    "objectID": "toolkit_tutorials/index.html",
+    "href": "toolkit_tutorials/index.html",
+    "title": "Tutorials",
     "section": "",
-    "text": "Let’s investigate the relationship between fuel efficiency (mpg) and engine displacement (disp) from the mtcars dataset. Those variables have a correlation of -0.85.\n\n\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
-  },
-  {
-    "objectID": "toolkit_tutorials/tutorial1/index.html#sub-header",
-    "href": "toolkit_tutorials/tutorial1/index.html#sub-header",
-    "title": "Analysis of Cars",
-    "section": "",
-    "text": "Here is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
+    "text": "No matching items"
   },
   {
     "objectID": "toolkit_blog/index.html",
@@ -91,17 +84,24 @@
     "text": "For prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe).\nResearch is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.\nWhat we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.\nSome folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.\nWhat does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.\nIn some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it’s important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand."
   },
   {
-    "objectID": "toolkit_tutorials/index.html",
-    "href": "toolkit_tutorials/index.html",
-    "title": "Tutorials",
+    "objectID": "toolkit_tutorials/CodeBlockTesting/index.html",
+    "href": "toolkit_tutorials/CodeBlockTesting/index.html",
+    "title": "Analysis of Cars - an example from quarto",
     "section": "",
-    "text": "No matching items"
+    "text": "Testing out using code chunks"
   },
   {
-    "objectID": "toolkit_tutorials/tutorial2/index.html",
-    "href": "toolkit_tutorials/tutorial2/index.html",
-    "title": "tutorial2",
-    "section": "",
-    "text": "Header"
+    "objectID": "toolkit_tutorials/CodeBlockTesting/index.html#sub-header",
+    "href": "toolkit_tutorials/CodeBlockTesting/index.html#sub-header",
+    "title": "Analysis of Cars - an example from quarto",
+    "section": "Sub-Header",
+    "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "title": "Using PowerQuery",
+    "section": "PowerQuery vs. VLookup",
+    "text": "PowerQuery vs. VLookup"
   }
 ]
