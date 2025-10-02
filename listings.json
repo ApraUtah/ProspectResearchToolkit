@@ -2,8 +2,8 @@
   {
     "listing": "/tutorials.html",
     "items": [
-      "/toolkit_tutorials/index.html",
       "/toolkit_tutorials/tutorial1/index.html",
+      "/toolkit_tutorials/index.html",
       "/toolkit_tutorials/tutorial2/index.html"
     ]
   },

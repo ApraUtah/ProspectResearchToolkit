@@ -4,14 +4,21 @@
     "href": "tutorials.html",
     "title": "Toolkit Tutorials",
     "section": "",
-    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial1\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of Cars\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "toolkit_tutorials/tutorial1/index.html",
     "href": "toolkit_tutorials/tutorial1/index.html",
-    "title": "tutorial1",
+    "title": "Analysis of Cars",
     "section": "",
-    "text": "Header"
+    "text": "Let’s investigate the relationship between fuel efficiency (mpg) and engine displacement (disp) from the mtcars dataset. Those variables have a correlation of -0.85.\n\n\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
+  },
+  {
+    "objectID": "toolkit_tutorials/tutorial1/index.html#sub-header",
+    "href": "toolkit_tutorials/tutorial1/index.html#sub-header",
+    "title": "Analysis of Cars",
+    "section": "",
+    "text": "Here is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
   },
   {
     "objectID": "toolkit_blog/index.html",

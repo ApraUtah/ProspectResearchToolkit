@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e7642b8c64b536800fe412d2d8cc5271.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -131,6 +131,9 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Toolkit Tutorials – Prospect Research Toolkit">
+<meta property="og:description" content="A prospect research resource library created by Greg Brooks and Apra Utah">
+<meta property="og:site_name" content="Prospect Research Toolkit">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -163,10 +166,6 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link active" href="./tutorials.html" aria-current="page"> 
 <span class="menu-text">Tutorials</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -211,7 +210,29 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1759381194183" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1759384800000" data-listing-file-modified-sort="1759389037273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<a href="./toolkit_tutorials/tutorial1/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="toolkit_tutorials\tutorial1\index_files\figure-html\unnamed-chunk-1-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysis of Cars
+</h5>
+<div class="card-text listing-description delink">
+Let’s investigate the relationship between fuel efficiency (<code>mpg</code>) and engine displacement (<code>disp</code>) from the <code>mtcars</code> dataset. Those variables have a correlation of -0.85.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Your Name
+</div>
+<div class="listing-date">
+Oct 2, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1759381194183" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./toolkit_tutorials/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -230,32 +251,6 @@ Tutorials
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
 
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1759384800000" data-listing-file-modified-sort="1759381194184" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./toolkit_tutorials/tutorial1/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-tutorial1
-</h5>
-<div class="card-text listing-description delink">
-
-
-
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Your Name
-</div>
-<div class="listing-date">
-Oct 2, 2025
 </div>
 </div>
 </div>
@@ -363,7 +358,7 @@ Oct 2, 2025
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ApraUtah\.github\.io\/ProspectResearchToolkit\/");
+        var filterRegex = new RegExp("https:\/\/aprautah\.github\.io\/ProspectResearchToolkit\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
