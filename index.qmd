@@ -7,12 +7,11 @@ title: "Prospect Research Toolkit"
 
 **Version: {{< var version >}}**
 
-This is an online research toolkit, taking inspiration from [Bellingcat's Online Investigative Toolkit](https://bellingcat.gitbook.io/toolkit){.external} as a way to establish a community-driven library of helpful resources. Bellingcat's toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone. 
-
-As one of my colleagues once pointed out, prospect research can seem like "panning for gold" - an apt metaphor, because you can pan for gold by hand (e.g. individual data validations for 1 specific person) or on an industrial level (e.g. segmenting and rating thousands of names for future research). The theme of this toolkit, aesthetically, is "Prospectin' in Philanthropy Country" - and hopefully adds some color / whimsy to what might otherwise be a somewhat boring website!
+As one of my colleagues once described a specific research process as "panning for gold" - because the filtering process was not necessarily going to yield anything but a few flecks of valuable information or names.
+I liked the metaphor enough that I've incorporated panning for gold into the aesthetics of this toolkit. But not everyone has the budget for the same equipment, or the time to create tools themselves, which can be frustrating if you are a one-person shop expected to "do more with less."
 
 ## Goals
-Create high quality prospect research education and tools available to big shops and small shops alike.
+Create high quality, community-driven, prospect research education and tools - and keep them free to use forever.
 
 ### Short-term
 - Synthetic donor dataset for training, examples, and presentations
@@ -24,6 +23,7 @@ Create high quality prospect research education and tools available to big shops
 - Extensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)
 - Standalone app that integrates with free and paid tools
 - Collaboration with other Apra chapters and Apra International
+- A prospect research field guide that combines tools, blog posts, tutorials, and edcuation into one cohesive whole - and can be downloaded as PDF as well as read online
 
 ## Tutorials & Docs being used to create this website
 - [Quarto docs](https://quarto.org/docs/websites){.external}
@@ -32,6 +32,8 @@ Create high quality prospect research education and tools available to big shops
 - [Quarto docs, another way to read them](https://deepwiki.com/quarto-dev/quarto-web/4.1-website-navigation){.external}
 - [Images and design inspiration from Cynthia Huang](https://www.cynthiahqy.com/blog.html){.external}
 - [Quarto curated Github resources](https://github.com/mcanouil/awesome-quarto){.external}
+- Toolkit structure aiming to take notes from [Bellingcat's Online Investigative Toolkit](https://bellingcat.gitbook.io/toolkit){.external} as a way to establish a community-driven library of helpful resources. Bellingcat's toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone. 
+
 
 
 
