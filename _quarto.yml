@@ -14,12 +14,13 @@ website:
       - about.qmd
       - href: tutorials.qmd
         text: Tutorials
+      - href: blog.qmd
+        text: Blog
 
 format:
   html:
     theme:
-      - solar
-      - brand
+      - united
     css: styles.css
     toc: true
 

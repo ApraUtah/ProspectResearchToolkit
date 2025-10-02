@@ -1,1 +1,1 @@
-Sitemap: https://ApraUtah.github.io/ProspectResearchToolkit/sitemap.xml
+Sitemap: https://aprautah.github.io/ProspectResearchToolkit/sitemap.xml

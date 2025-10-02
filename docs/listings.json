@@ -2,10 +2,14 @@
   {
     "listing": "/tutorials.html",
     "items": [
+      "/toolkit_tutorials/CodeBlockTesting/index.html",
       "/toolkit_tutorials/index.html",
-      "/toolkit_tutorials/tutorial1/index.html",
-      "/toolkit_tutorials/tutorial2/index.html"
+      "/toolkit_tutorials/UsingPowerQuery/index.html"
     ]
+  },
+  {
+    "listing": "/toolkit_tutorials/index.html",
+    "items": []
   },
   {
     "listing": "/toolkit_blog/index.html",
@@ -17,9 +21,5 @@
       "/toolkit_blog/index.html",
       "/toolkit_blog/first_blog/index.html"
     ]
-  },
-  {
-    "listing": "/toolkit_tutorials/index.html",
-    "items": []
   }
 ]

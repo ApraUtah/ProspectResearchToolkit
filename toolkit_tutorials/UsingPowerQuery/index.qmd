@@ -1,0 +1,13 @@
+---
+title: "Using PowerQuery"
+author: Greg Brooks
+date: today
+---
+
+# Overview
+
+## What is PowerQuery?
+
+# Use-cases
+
+## PowerQuery vs. VLookup
