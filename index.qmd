@@ -2,12 +2,12 @@
 title: "Welcome!"
 ---
 
-This is an online research toolkit, taking inspiration from Bellingcat's Online Investigative Toolkit 
+This is an online research toolkit, taking inspiration from [Bellingcat's Online Investigative Toolkit](https://bellingcat.gitbook.io/toolkit){.external}
 
 # Goals
 Part of the goal of this project is to make free tools available as much as possible, but considering the ubiquity of paid tools in the fundraising space, the prospect research toolkit also has a secondary goal to provide education and tutorials for resources like iWave or Nexis for Development Professionals. 
 
-The benefit of the toolkit, I think, is having many resources all in the same place.
+The benefit of any toolkit, I think, is having many resources all in the same place.
 
 ## Long-term
 
@@ -15,5 +15,6 @@ One day, I'd like to have free software available for truly small shops - a natu
 
 
 ## Tutorials & Docs I'm learning from:
+Quarto-the definitive guide: <https://quarto-tdg.org/>
 Quarto: <https://quarto.org/docs/websites>.
 Environment: <https://www.danyavorsky.com/posts/020-quarto-websites/>.
