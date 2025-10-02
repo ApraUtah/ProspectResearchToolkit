@@ -10,7 +10,7 @@ website:
   reader-mode: true
   page-footer: 
     left: "Created by Greg Brooks, in association with Apra Utah"
-    right: ""
+    right: "Last updated: 10/2/2025"
   sidebar:
     style: "docked"
     search: true
@@ -18,6 +18,8 @@ website:
       - text: "Home"
       - href: index.qmd
       - section: "Tools"
+      - section: "Templates"
+        contents: templates.qmd
       - section: "Tutorials & Blog"
         contents: 
           - tutorials.qmd
@@ -26,9 +28,7 @@ website:
 format:
   html:
     respect-user-color-scheme: true
-    theme:
-      light: lightly
-      dark: darkly
+    theme: simplex
 
     css: styles.css
     toc: true
