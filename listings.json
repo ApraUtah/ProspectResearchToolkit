@@ -8,13 +8,17 @@
     ]
   },
   {
+    "listing": "/toolkit_tutorials/index.html",
+    "items": []
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/toolkit_blog/first_blog/index.html"
     ]
   },
   {
-    "listing": "/toolkit_tutorials/index.html",
+    "listing": "/free_resources_links.html",
     "items": []
   }
 ]

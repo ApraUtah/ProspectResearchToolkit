@@ -11,80 +11,18 @@
     ]
   },
   {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "title": "Using PowerQuery",
-    "section": "PowerQuery vs. VLookup",
-    "text": "PowerQuery vs. VLookup"
-  },
-  {
-    "objectID": "toolkit_tutorials/CodeBlockTesting/index.html",
-    "href": "toolkit_tutorials/CodeBlockTesting/index.html",
-    "title": "Analysis of Cars - an example from quarto",
+    "objectID": "tools/free_tools/free_external/index.html",
+    "href": "tools/free_tools/free_external/index.html",
+    "title": "Free External Resources",
     "section": "",
-    "text": "Testing out using code chunks"
+    "text": "The Prospect Research Institute has free resources available, but some of them are out of date, since their focus is on creating paid training with clients. See some research specific pages here: Prospect Research."
   },
   {
-    "objectID": "toolkit_tutorials/CodeBlockTesting/index.html#sub-header",
-    "href": "toolkit_tutorials/CodeBlockTesting/index.html#sub-header",
-    "title": "Analysis of Cars - an example from quarto",
-    "section": "Sub-Header",
-    "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
-  },
-  {
-    "objectID": "templates.html",
-    "href": "templates.html",
-    "title": "Tools",
+    "objectID": "toolkit_tutorials/index.html",
+    "href": "toolkit_tutorials/index.html",
+    "title": "Tutorials",
     "section": "",
-    "text": "Excel templates\n\n\nother templates (?)"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Toolkit Blog",
-    "section": "",
-    "text": "Let’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Tutorials & Blog",
-      "Toolkit Blog"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This toolkit is maintained by Greg Brooks in association with Apra Utah."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prospect Research Toolkit",
-    "section": "",
-    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nAs one of my colleagues once pointed out, prospect research can seem like “panning for gold” - an apt metaphor, because you can pan for gold by hand (e.g. individual data validations for 1 specific person) or on an industrial level (e.g. segmenting and rating thousands of names for future research). The theme of this toolkit, aesthetically, is “Prospectin’ in Philanthropy Country” - and hopefully adds some color / whimsy to what might otherwise be a somewhat boring website!",
-    "crumbs": [
-      "Prospect Research Toolkit"
-    ]
-  },
-  {
-    "objectID": "index.html#goals",
-    "href": "index.html#goals",
-    "title": "Prospect Research Toolkit",
-    "section": "Goals",
-    "text": "Goals\nCreate high quality prospect research education and tools available to big shops and small shops alike.\n\nShort-term\n\nSynthetic donor dataset for training, examples, and presentations\nAI Prompt library and use-cases, as well as “helper files” for creating stronger research posture without having to initialize an entire agent\nSoftware tool comparisons, paid and free\nTemplates and tutorials\n\n\n\nLong-term\n\nExtensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)\nStandalone app that integrates with free and paid tools\nCollaboration with other Apra chapters and Apra International",
-    "crumbs": [
-      "Prospect Research Toolkit"
-    ]
-  },
-  {
-    "objectID": "index.html#tutorials-docs-being-used-to-create-this-website",
-    "href": "index.html#tutorials-docs-being-used-to-create-this-website",
-    "title": "Prospect Research Toolkit",
-    "section": "Tutorials & Docs being used to create this website",
-    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources",
-    "crumbs": [
-      "Prospect Research Toolkit"
-    ]
+    "text": "No matching items"
   },
   {
     "objectID": "toolkit_blog/first_blog/index.html",
@@ -115,11 +53,91 @@
     "text": "For prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe).\nResearch is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.\nWhat we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.\nSome folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.\nWhat does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.\nIn some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it’s important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand."
   },
   {
-    "objectID": "toolkit_tutorials/index.html",
-    "href": "toolkit_tutorials/index.html",
-    "title": "Tutorials",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prospect Research Toolkit",
     "section": "",
-    "text": "No matching items"
+    "text": "…\nVersion: 0.1-alpha\nThis is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nAs one of my colleagues once pointed out, prospect research can seem like “panning for gold” - an apt metaphor, because you can pan for gold by hand (e.g. individual data validations for 1 specific person) or on an industrial level (e.g. segmenting and rating thousands of names for future research). The theme of this toolkit, aesthetically, is “Prospectin’ in Philanthropy Country” - and hopefully adds some color / whimsy to what might otherwise be a somewhat boring website!",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "Prospect Research Toolkit",
+    "section": "Goals",
+    "text": "Goals\nCreate high quality prospect research education and tools available to big shops and small shops alike.\n\nShort-term\n\nSynthetic donor dataset for training, examples, and presentations\nAI Prompt library and use-cases, as well as “helper files” for creating stronger research posture without having to initialize an entire agent\nSoftware tool comparisons, paid and free\nTemplates and tutorials\n\n\n\nLong-term\n\nExtensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)\nStandalone app that integrates with free and paid tools\nCollaboration with other Apra chapters and Apra International",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
+  },
+  {
+    "objectID": "index.html#tutorials-docs-being-used-to-create-this-website",
+    "href": "index.html#tutorials-docs-being-used-to-create-this-website",
+    "title": "Prospect Research Toolkit",
+    "section": "Tutorials & Docs being used to create this website",
+    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Toolkit Blog",
+    "section": "",
+    "text": "Let’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Tutorials & Blog",
+      "Toolkit Blog"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This toolkit is maintained by Greg Brooks in association with Apra Utah."
+  },
+  {
+    "objectID": "free_resources_links.html",
+    "href": "free_resources_links.html",
+    "title": "Free External Resources",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "External Resources",
+      "Free External Resources"
+    ]
+  },
+  {
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Excel templates\n\n\nother templates (?)"
+  },
+  {
+    "objectID": "toolkit_tutorials/CodeBlockTesting/index.html",
+    "href": "toolkit_tutorials/CodeBlockTesting/index.html",
+    "title": "Analysis of Cars - an example from quarto",
+    "section": "",
+    "text": "Testing out using code chunks"
+  },
+  {
+    "objectID": "toolkit_tutorials/CodeBlockTesting/index.html#sub-header",
+    "href": "toolkit_tutorials/CodeBlockTesting/index.html#sub-header",
+    "title": "Analysis of Cars - an example from quarto",
+    "section": "Sub-Header",
+    "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "title": "Using PowerQuery",
+    "section": "PowerQuery vs. VLookup",
+    "text": "PowerQuery vs. VLookup"
   },
   {
     "objectID": "tools.html#free-tools",
