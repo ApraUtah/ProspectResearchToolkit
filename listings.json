@@ -8,18 +8,13 @@
     ]
   },
   {
-    "listing": "/toolkit_tutorials/index.html",
-    "items": []
-  },
-  {
-    "listing": "/toolkit_blog/index.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
-      "/toolkit_blog/index.html",
       "/toolkit_blog/first_blog/index.html"
     ]
+  },
+  {
+    "listing": "/toolkit_tutorials/index.html",
+    "items": []
   }
 ]
