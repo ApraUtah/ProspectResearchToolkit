@@ -193,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="research-and-emotions" class="level2">
 <h2 class="anchored" data-anchor-id="research-and-emotions">Research and emotions</h2>
 <p>For prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g.&nbsp;data privacy laws in California, or Europe).</p>
-<p>Research is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect develoopment analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.</p>
+<p>Research is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.</p>
 <p>What we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.</p>
 <p>Some folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.</p>
 <p>What does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.</p>
@@ -282,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ApraUtah\.github\.io\/ProspectResearchToolkit\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
