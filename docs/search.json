@@ -4,7 +4,7 @@
     "href": "tutorials.html",
     "title": "Toolkit Tutorials",
     "section": "",
-    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial1\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntutorial1\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\ntutorial2\n\n\n\n\n\n\nYour Name\n\n\nOct 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "toolkit_tutorials/tutorial1/index.html",
@@ -25,21 +25,21 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit"
+    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone."
+  },
+  {
+    "objectID": "index.html#short-term",
+    "href": "index.html#short-term",
+    "title": "Welcome!",
+    "section": "Short-term",
+    "text": "Short-term\n\nSynthetic donor dataset for training, examples, and presentations\nAI Prompt library and use-cases, as well as “helper files” for creating stronger research posture without having to initialize an entire agent\nSoftware tool comparisons, paid and free\nTemplates and tutorials"
   },
   {
     "objectID": "index.html#long-term",
     "href": "index.html#long-term",
     "title": "Welcome!",
     "section": "Long-term",
-    "text": "Long-term\nOne day, I’d like to have free software available for truly small shops - a natural phase 2 or 3 of this toolkit, which is currently just being initialized and collated as a library of stuff."
-  },
-  {
-    "objectID": "index.html#tutorials-docs-im-learning-from",
-    "href": "index.html#tutorials-docs-im-learning-from",
-    "title": "Welcome!",
-    "section": "Tutorials & Docs I’m learning from:",
-    "text": "Tutorials & Docs I’m learning from:\nQuarto-the definitive guide: https://quarto-tdg.org/ Quarto: https://quarto.org/docs/websites. Environment: https://www.danyavorsky.com/posts/020-quarto-websites/."
+    "text": "Long-term\n\nExtensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)\nStandalone app that integrates with free and paid tools\nCollaboration with other Apra chapters and Apra International"
   },
   {
     "objectID": "about.html",

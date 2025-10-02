@@ -18,7 +18,7 @@ Create high quality prospect research education and tools available to big shops
 - Standalone app that integrates with free and paid tools
 - Collaboration with other Apra chapters and Apra International
 
-# Tutorials & Docs I'm learning from:
+# Tutorials & Docs used to create this website
 - [Quarto-the definitive guide](https://quarto-tdg.org/){.external}
-- [Quarto docs](https://quarto.org/docs/websites) {.external}
+- [Quarto docs](https://quarto.org/docs/websites){.external}
 - [Set-up tutorial by Dan Yavorksy](https://www.danyavorsky.com/posts/020-quarto-websites/){.external}

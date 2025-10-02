@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Prospect Research Toolkit"
+  description: A prospect research resource library created by Greg Brooks and Apra Utah
+  site-url: https://aprautah.github.io/ProspectResearchToolkit/
+  open-graph: true
   navbar:
     left:
       - href: index.qmd
@@ -11,14 +14,11 @@ website:
       - about.qmd
       - href: tutorials.qmd
         text: Tutorials
-      - href: blog.qmd
-        text: Blog
-
 
 format:
   html:
     theme:
-      - cosmo
+      - solar
       - brand
     css: styles.css
     toc: true
