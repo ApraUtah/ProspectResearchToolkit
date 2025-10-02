@@ -6,7 +6,7 @@ This is an online research toolkit, taking inspiration from [Bellingcat's Online
 
 As one of my colleagues once pointed out, prospect research can seem like "panning for gold" - an apt metaphor, because you can pan for gold by hand (e.g. individual data validations for 1 specific person) or on an industrial level (e.g. segmenting and rating thousands of names for future research). The theme of this toolkit, aesthetically, is "Prospectin' in Philanthropy Country" - and hopefully adds some color / whimsy to what might otherwise be a somewhat boring website!
 
-![What digital gear do you swear by?](https://i.postimg.cc/W1STySKW/prospect-research-toolkit-large-logo-prototype-one-1.png)
+![...](https://i.postimg.cc/W1STySKW/prospect-research-toolkit-large-logo-prototype-one-1.png)
 
 ## Goals
 Create high quality prospect research education and tools available to big shops and small shops alike.
