@@ -23,9 +23,12 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome!",
+    "title": "Prospect Research Toolkit",
     "section": "",
-    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone."
+    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
   },
   {
     "objectID": "index.html#short-term",
@@ -53,7 +56,12 @@
     "href": "blog.html",
     "title": "Toolkit Blog",
     "section": "",
-    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Let’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Tutorials & Blog",
+      "Toolkit Blog"
+    ]
   },
   {
     "objectID": "toolkit_blog/first_blog/index.html",
@@ -103,5 +111,49 @@
     "title": "Using PowerQuery",
     "section": "PowerQuery vs. VLookup",
     "text": "PowerQuery vs. VLookup"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "This is an online research toolkit, taking inspiration from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "Prospect Research Toolkit",
+    "section": "Goals",
+    "text": "Goals\nCreate high quality prospect research education and tools available to big shops and small shops alike.\n\nShort-term\n\nSynthetic donor dataset for training, examples, and presentations\nAI Prompt library and use-cases, as well as “helper files” for creating stronger research posture without having to initialize an entire agent\nSoftware tool comparisons, paid and free\nTemplates and tutorials\n\n\n\nLong-term\n\nExtensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)\nStandalone app that integrates with free and paid tools\nCollaboration with other Apra chapters and Apra International",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
+  },
+  {
+    "objectID": "index.html#tutorials-docs-used-to-create-this-website",
+    "href": "index.html#tutorials-docs-used-to-create-this-website",
+    "title": "Prospect Research Toolkit",
+    "section": "Tutorials & Docs used to create this website",
+    "text": "Tutorials & Docs used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
+  },
+  {
+    "objectID": "tools.html#free-tools",
+    "href": "tools.html#free-tools",
+    "title": "Tools",
+    "section": "Free tools",
+    "text": "Free tools"
+  },
+  {
+    "objectID": "tools.html#paid-tools",
+    "href": "tools.html#paid-tools",
+    "title": "Tools",
+    "section": "Paid tools",
+    "text": "Paid tools"
   }
 ]

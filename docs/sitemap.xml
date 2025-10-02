@@ -1,39 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aprautah.github.io/ProspectResearchToolkit/tutorials.html</loc>
-    <lastmod>2025-10-02T04:59:54.186Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_tutorials/index.html</loc>
-    <lastmod>2025-10-02T04:59:54.183Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_blog/index.html</loc>
-    <lastmod>2025-10-02T04:59:54.182Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aprautah.github.io/ProspectResearchToolkit/index.html</loc>
-    <lastmod>2025-10-02T07:01:21.352Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aprautah.github.io/ProspectResearchToolkit/about.html</loc>
-    <lastmod>2025-10-02T05:14:56.716Z</lastmod>
-  </url>
-  <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/blog.html</loc>
-    <lastmod>2025-10-02T04:59:54.164Z</lastmod>
+    <lastmod>2025-10-02T07:26:47.614Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_blog/first_blog/index.html</loc>
-    <lastmod>2025-10-02T05:11:58.546Z</lastmod>
+    <lastmod>2025-10-02T08:02:49.421Z</lastmod>
   </url>
   <url>
-    <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_tutorials/CodeBlockTesting/index.html</loc>
-    <lastmod>2025-10-02T07:19:12.480Z</lastmod>
+    <loc>https://aprautah.github.io/ProspectResearchToolkit/index.html</loc>
+    <lastmod>2025-10-02T08:12:36.060Z</lastmod>
   </url>
   <url>
-    <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_tutorials/UsingPowerQuery/index.html</loc>
-    <lastmod>2025-10-02T07:19:14.176Z</lastmod>
+    <loc>https://aprautah.github.io/ProspectResearchToolkit/tools.html</loc>
+    <lastmod>2025-10-02T08:01:14.777Z</lastmod>
   </url>
 </urlset>
