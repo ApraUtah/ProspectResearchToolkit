@@ -134,5 +134,16 @@
     "title": "Tools",
     "section": "Paid tools",
     "text": "Paid tools"
+  },
+  {
+    "objectID": "free_resources_links.html",
+    "href": "free_resources_links.html",
+    "title": "Free External Resources",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "External Resources",
+      "Free External Resources"
+    ]
   }
 ]

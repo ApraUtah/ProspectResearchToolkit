@@ -32,3 +32,6 @@ Create high quality prospect research education and tools available to big shops
 - [Quarto docs, another way to read them](https://deepwiki.com/quarto-dev/quarto-web/4.1-website-navigation){.external}
 - [Images and design inspiration from Cynthia Huang](https://www.cynthiahqy.com/blog.html){.external}
 - [Quarto curated Github resources](https://github.com/mcanouil/awesome-quarto){.external}
+
+
+

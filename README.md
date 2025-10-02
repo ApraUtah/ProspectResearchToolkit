@@ -11,3 +11,7 @@
 - Quarto website project, very convenient - I just type "quarto preview", "quarto render", and "quarto publish" in my VS Code terminal and it lets me check the website before it updates, renders it (translating the Quarto files into .html), and publishes it to a branch of the Apra Utah Github
 - The Github pages settings are configured to build from the gh-pages branch, and that's the last stop after committing and pushing code before the website updates go live
 - I'm writing this down so I remember how I did it!
+
+# Tools I want to utilize
+- Video embedding
+- Quarto extensions (like quizdown)

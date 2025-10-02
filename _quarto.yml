@@ -31,6 +31,9 @@ website:
         contents: 
           - tutorials.qmd
           - blog.qmd
+      - section: "External Resources"
+        contents:
+          - free_resources_links.qmd
 
 format:
   html:
