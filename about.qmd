@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-This toolkit is maintained by Greg Brooks in association with Apra Utah.
+This toolkit is maintained by Greg Brooks in association with (Apra Utah)[https://aprautah.wildapricot.org/]{.external}.
