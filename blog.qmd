@@ -5,5 +5,3 @@ listing:
     contents: toolkit_blog
     type: grid
 ---
-
-nothing here yet!
