@@ -22,9 +22,10 @@ Create high quality prospect research education and tools available to big shops
 - Standalone app that integrates with free and paid tools
 - Collaboration with other Apra chapters and Apra International
 
-## Tutorials & Docs used to create this website
+## Tutorials & Docs being used to create this website
 - [Quarto docs](https://quarto.org/docs/websites){.external}
 - [Set-up tutorial by Dan Yavorksy](https://www.danyavorsky.com/posts/020-quarto-websites/){.external}
 - [Documentation philosophy](https://diataxis.fr/){.external}
 - [Quarto docs, another way to read them](https://deepwiki.com/quarto-dev/quarto-web/4.1-website-navigation){.external}
 - [Images and design inspiration from Cynthia Huang](https://www.cynthiahqy.com/blog.html){.external}
+- [Quarto curated Github resources](https://github.com/mcanouil/awesome-quarto){.external}

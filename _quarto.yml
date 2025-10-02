@@ -7,6 +7,13 @@ website:
   description: A prospect research resource library created by Greg Brooks and Apra Utah
   site-url: https://aprautah.github.io/ProspectResearchToolkit/
   open-graph: true
+
+  announcement: 
+    content: "**Welcome!** - this website is a work in progress, and some pages may be empty or broken. Thank you for your patience!" 
+    position: below-navbar 
+    type: info
+    icon: info-square-fill
+
   reader-mode: true
   page-footer: 
     left: "Created by Greg Brooks, in association with Apra Utah"

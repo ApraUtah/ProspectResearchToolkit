@@ -127,5 +127,22 @@
     "title": "Tools",
     "section": "Paid tools",
     "text": "Paid tools"
+  },
+  {
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Excel templates\n\n\nother templates (?)"
+  },
+  {
+    "objectID": "index.html#tutorials-docs-being-used-to-create-this-website",
+    "href": "index.html#tutorials-docs-being-used-to-create-this-website",
+    "title": "Prospect Research Toolkit",
+    "section": "Tutorials & Docs being used to create this website",
+    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources",
+    "crumbs": [
+      "Prospect Research Toolkit"
+    ]
   }
 ]
