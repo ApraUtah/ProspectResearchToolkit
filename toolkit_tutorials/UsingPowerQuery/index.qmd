@@ -1,13 +1,48 @@
 ---
 title: "Using PowerQuery"
 author: Greg Brooks
-date: today
+date: 10/3/2025
+categories:
+    - Paid tool
+    - Excel
 ---
-
-# Overview
 
 ## What is PowerQuery?
 
-# Use-cases
+**Power Query** is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources. 
+
+### Key Features
+
+- **Data Importing**: Pulls data from multiple sources (databases, web pages, files).
+- **Data Transformation**: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.
+- **User-Friendly Interface**: Provides a visual interface for users to apply transformations without coding.
+- **Integration**: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.
+
+In essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights.
 
 ## PowerQuery vs. VLookup
+
+| Feature           | Power Query                              | VLOOKUP                                      |
+|-------------------|------------------------------------------|----------------------------------------------|
+| **Purpose**       | Data transformation and preparation      | Look up and retrieve specific data values    |
+| **Data Sources**  | Connects to multiple sources (Excel, SQL, web, etc.) | Limited to data within the worksheet          |
+| **Complexity**    | More complex with advanced capabilities   | Simpler and straightforward                    |
+| **Output**        | Creates tables or queries in Excel       | Returns a single value based on a match      |
+| **Flexibility**   | Highly versatile, allows for data shaping  | Less flexible; limited to a single match type |
+| **Use Cases**     | Ideal for ETL processes and bulk data manipulation | Best for simple lookups within a single dataset |
+| **Maintenance**   | Requires more setup but easier to update over time | Simple to set up but can be error-prone if data changes |
+
+## Use-cases
+Your workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.
+
+### Scenario 1
+You have data in your CRM that you want to combine with another dataset you've found or created. For example, perhaps you've created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.
+
+### Steps to Achieve This
+1. **Export Data from CRM**: Start by exporting the relevant data from your CRM into a CSV or Excel format.
+2. **Import Data into Power Query**: Open Excel, go to the Data tab, and select "Get Data" to import your CRM data and your custom dataset.
+3. **Combine Datasets**: Use Power Query tools to merge or append the datasets based on a common identifier.
+4. **Transform Data**: Clean, filter, or reshape the data as necessary.
+5. **Load the Combined Data**: Once satisfied with the combined data, load it back into Excel for analysis or reporting.
+
+More complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI

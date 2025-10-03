@@ -9,29 +9,23 @@ website:
   open-graph: true
 
   announcement: 
-    content: "**Welcome!** - this website is a work in progress, and some pages may be empty or broken. Thank you for your patience!" 
+    content: "**Welcome!** - this website is a work in progress, and some pages/features may be empty, unfinished, or broken. Thank you for your patience!" 
     position: below-navbar 
     type: info
     icon: info-square-fill
 
-  reader-mode: true
+  reader-mode: false
   page-footer: 
     left: "Created by Greg Brooks, in association with Apra Utah"
-    right: "Last updated: 10/2/2025"
   sidebar:
     style: "docked"
     search: true
     contents: 
-      - text: "Home"
       - href: index.qmd
+      - href: about.qmd
       - section: "Tools"
-      - section: "Dashboard"
-        contents:
-          - toolkit_dashboard1.qmd
-      - section: "Templates"
-        contents: 
-          - templates.qmd
-          - org_template1.qmd
+      - href: toolkit_dashboard1.qmd
+      - href: templates.qmd
       - section: "Tutorials & Blog"
         contents: 
           - tutorials.qmd

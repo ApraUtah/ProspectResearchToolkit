@@ -1,6 +1,6 @@
 ---
 title: "Analysis of Cars - an example from quarto"
-author: Your Name
+author: n/a
 date: today
 ---
 Testing out using code chunks

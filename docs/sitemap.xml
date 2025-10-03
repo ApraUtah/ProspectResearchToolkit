@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/tutorials.html</loc>
-    <lastmod>2025-10-02T04:59:54.186Z</lastmod>
+    <lastmod>2025-10-03T06:43:37.748Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/tools/free_tools/free_external/index.html</loc>
-    <lastmod>2025-10-02T12:08:58.940Z</lastmod>
+    <lastmod>2025-10-03T05:37:23.793Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_tutorials/index.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/index.html</loc>
-    <lastmod>2025-10-02T12:08:39.945Z</lastmod>
+    <lastmod>2025-10-03T06:37:24.009Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/blog.html</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/about.html</loc>
-    <lastmod>2025-10-02T05:14:56.716Z</lastmod>
+    <lastmod>2025-10-03T07:15:20.287Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/free_resources_links.html</loc>
@@ -34,18 +34,26 @@
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/templates.html</loc>
-    <lastmod>2025-10-02T10:18:04.918Z</lastmod>
+    <lastmod>2025-10-03T06:42:59.200Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_tutorials/CodeBlockTesting/index.html</loc>
-    <lastmod>2025-10-02T07:19:12.480Z</lastmod>
+    <lastmod>2025-10-03T06:44:58.971Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_tutorials/UsingPowerQuery/index.html</loc>
-    <lastmod>2025-10-02T07:19:14.176Z</lastmod>
+    <lastmod>2025-10-03T07:07:55.960Z</lastmod>
   </url>
   <url>
     <loc>https://aprautah.github.io/ProspectResearchToolkit/tools.html</loc>
     <lastmod>2025-10-02T08:01:14.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_dashboard1.html</loc>
+    <lastmod>2025-10-03T06:43:35.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aprautah.github.io/ProspectResearchToolkit/toolkit_blog/technical_field_guide/index.html</loc>
+    <lastmod>2025-10-03T06:20:09.070Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,10 @@
+---
+title: "Technical Field Guide"
+author: Greg Brooks
+date: 10-3-2025
+---
+
+::: {.column-margin}
+
+![...](https://i.postimg.cc/ncgQPn6B/cale-s-cover-for-prospectin-in-philanthropy-country.jpg)
+:::
