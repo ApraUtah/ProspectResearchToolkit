@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Greg Brooks">
-<meta name="dcterms.date" content="2025-10-03">
 
-<title>Using PowerQuery – Prospect Research Toolkit</title>
+<title>Toolkit Dashboard – Prospect Research Toolkit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +23,36 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-af08294f74570ca45ab4d02f043aaf08.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-af08294f74570ca45ab4d02f043aaf08.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-af08294f74570ca45ab4d02f043aaf08.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-af08294f74570ca45ab4d02f043aaf08.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
+<script src="site_libs/quarto-dashboard/stickythead.js"></script>
+
+
+
+<script src="site_libs/quarto-dashboard/web-components.js" type="module"></script>
+<script src="site_libs/quarto-dashboard/components.js"></script>
+
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,268 +82,53 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Using PowerQuery – Prospect Research Toolkit">
-<meta property="og:description" content="A prospect research resource library created by Greg Brooks and Apra Utah">
+<meta property="og:title" content="Toolkit Dashboard – Prospect Research Toolkit">
 <meta property="og:site_name" content="Prospect Research Toolkit">
 </head>
 
-<body class="nav-sidebar docked quarto-light">
+<body class="quarto-dashboard nav-sidebar dashboard-fill fullcontent quarto-light">
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Using PowerQuery</li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
   <div id="quarto-announcement" data-announcement-id="444c0cddf6e2c1d7a8c14e5032edf909" class="alert alert-info hidden"><i class="bi bi-info-square-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Welcome!</strong> - this website is a work in progress, and some pages/features may be empty, unfinished, or broken. Thank you for your patience!</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
-</header>
+<header id="quarto-dashboard-header">
+<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
+  <div class="navbar-container container-fluid">
+    <button class="navbar-toggler hidden" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+
+
+    <div class="navbar-brand-container">
+
+
+      <div class="navbar-title">
+        <div class="navbar-title-text"><a href="#">Toolkit Dashboard</a></div>
+        
+        
+      </div>
+    </div>
+</div>
+</nav>
+</header></header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-layout-custom quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Prospect Research Toolkit</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Tools</span></span>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../toolkit_dashboard1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Toolkit Dashboard</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../templates.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Templates</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Tutorials &amp; Blog</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../tutorials.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tutorials &amp; How-to</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../blog.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Toolkit Blog</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">External Resources</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../free_resources_links.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Free External Resources</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-is-powerquery" id="toc-what-is-powerquery" class="nav-link active" data-scroll-target="#what-is-powerquery">What is PowerQuery?</a>
-  <ul class="collapse">
-  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
-  </ul></li>
-  <li><a href="#powerquery-vs.-vlookup" id="toc-powerquery-vs.-vlookup" class="nav-link" data-scroll-target="#powerquery-vs.-vlookup">PowerQuery vs.&nbsp;VLookup</a></li>
-  <li><a href="#use-cases" id="toc-use-cases" class="nav-link" data-scroll-target="#use-cases">Use-cases</a>
-  <ul class="collapse">
-  <li><a href="#scenario-1" id="toc-scenario-1" class="nav-link" data-scroll-target="#scenario-1">Scenario 1</a></li>
-  <li><a href="#steps-to-achieve-this" id="toc-steps-to-achieve-this" class="nav-link" data-scroll-target="#steps-to-achieve-this">Steps to Achieve This</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Using PowerQuery</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Paid tool</div>
-    <div class="quarto-category">Excel</div>
-  </div>
-  </div>
+<div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: ; grid-auto-columns: minmax(0, 1fr);">
 
 
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Greg Brooks </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 3, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
+</div>
+</div>
 
 
-</header>
-
-
-<section id="what-is-powerquery" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-powerquery">What is PowerQuery?</h2>
-<p><strong>Power Query</strong> is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.</p>
-<section id="key-features" class="level3">
-<h3 class="anchored" data-anchor-id="key-features">Key Features</h3>
-<ul>
-<li><strong>Data Importing</strong>: Pulls data from multiple sources (databases, web pages, files).</li>
-<li><strong>Data Transformation</strong>: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.</li>
-<li><strong>User-Friendly Interface</strong>: Provides a visual interface for users to apply transformations without coding.</li>
-<li><strong>Integration</strong>: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.</li>
-</ul>
-<p>In essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights.</p>
-</section>
-</section>
-<section id="powerquery-vs.-vlookup" class="level2">
-<h2 class="anchored" data-anchor-id="powerquery-vs.-vlookup">PowerQuery vs.&nbsp;VLookup</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 17%">
-<col style="width: 39%">
-<col style="width: 42%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Feature</th>
-<th>Power Query</th>
-<th>VLOOKUP</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Purpose</strong></td>
-<td>Data transformation and preparation</td>
-<td>Look up and retrieve specific data values</td>
-</tr>
-<tr class="even">
-<td><strong>Data Sources</strong></td>
-<td>Connects to multiple sources (Excel, SQL, web, etc.)</td>
-<td>Limited to data within the worksheet</td>
-</tr>
-<tr class="odd">
-<td><strong>Complexity</strong></td>
-<td>More complex with advanced capabilities</td>
-<td>Simpler and straightforward</td>
-</tr>
-<tr class="even">
-<td><strong>Output</strong></td>
-<td>Creates tables or queries in Excel</td>
-<td>Returns a single value based on a match</td>
-</tr>
-<tr class="odd">
-<td><strong>Flexibility</strong></td>
-<td>Highly versatile, allows for data shaping</td>
-<td>Less flexible; limited to a single match type</td>
-</tr>
-<tr class="even">
-<td><strong>Use Cases</strong></td>
-<td>Ideal for ETL processes and bulk data manipulation</td>
-<td>Best for simple lookups within a single dataset</td>
-</tr>
-<tr class="odd">
-<td><strong>Maintenance</strong></td>
-<td>Requires more setup but easier to update over time</td>
-<td>Simple to set up but can be error-prone if data changes</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="use-cases" class="level2">
-<h2 class="anchored" data-anchor-id="use-cases">Use-cases</h2>
-<p>Your workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.</p>
-<section id="scenario-1" class="level3">
-<h3 class="anchored" data-anchor-id="scenario-1">Scenario 1</h3>
-<p>You have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.</p>
-</section>
-<section id="steps-to-achieve-this" class="level3">
-<h3 class="anchored" data-anchor-id="steps-to-achieve-this">Steps to Achieve This</h3>
-<ol type="1">
-<li><strong>Export Data from CRM</strong>: Start by exporting the relevant data from your CRM into a CSV or Excel format.</li>
-<li><strong>Import Data into Power Query</strong>: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.</li>
-<li><strong>Combine Datasets</strong>: Use Power Query tools to merge or append the datasets based on a common identifier.</li>
-<li><strong>Transform Data</strong>: Clean, filter, or reshape the data as necessary.</li>
-<li><strong>Load the Combined Data</strong>: Once satisfied with the combined data, load it back into Excel for analysis or reporting.</li>
-</ol>
-<p>More complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI</p>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -749,6 +544,14 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </footer>
 
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (_event) {
+  if (window.bslib.Card) {
+    window.bslib.Card.initializeAllCards();
+  }
+}); 
+</script>
+  
 
 
 

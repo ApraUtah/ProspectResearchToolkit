@@ -8,17 +8,19 @@
     ]
   },
   {
-    "listing": "/toolkit_tutorials/index.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
-      "/toolkit_blog/first_blog/index.html"
+      "/toolkit_blog/first_blog/index.html",
+      "/toolkit_blog/PRSPCT-L_roundup/index.html",
+      "/toolkit_blog/technical_field_guide/index.html"
     ]
   },
   {
     "listing": "/free_resources_links.html",
+    "items": []
+  },
+  {
+    "listing": "/toolkit_tutorials/index.html",
     "items": []
   }
 ]
