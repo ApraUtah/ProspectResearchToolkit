@@ -33,6 +33,7 @@ Create high quality, community-driven, prospect research education and tools - a
 - [Images and design inspiration from Cynthia Huang](https://www.cynthiahqy.com/blog.html){.external}
 - [Quarto curated Github resources](https://github.com/mcanouil/awesome-quarto){.external}
 - Toolkit structure aiming to take notes from [Bellingcat's Online Investigative Toolkit](https://bellingcat.gitbook.io/toolkit){.external} as a way to establish a community-driven library of helpful resources. Bellingcat's toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone. 
+- [Dr. Mickaël CANOUIL is a Quarto extension rockstar, scientist, and writes really clear tutorials](https://mickael.canouil.fr/posts/2025-05-19-quarto-codespaces/)
 
 
 
