@@ -1,6 +1,0 @@
----
-title: "Tutorials"
-listing:
-  contents: toolkit_tutorials  # <-- the sub-directory with blog content
-  type: grid          # <-- my preferred layout type
----

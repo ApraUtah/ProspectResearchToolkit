@@ -7,6 +7,17 @@ website:
   description: A prospect research resource library created by Greg Brooks and Apra Utah
   site-url: https://aprautah.github.io/ProspectResearchToolkit/
   open-graph: true
+  back-to-top-navigation: true
+
+  navbar:
+    background: secondary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Field Guide"
 
   announcement: 
     content: "**Welcome!** - this website is a work in progress, and some pages/features may be empty, unfinished, or broken. Thank you for your patience!" 
@@ -17,16 +28,17 @@ website:
   reader-mode: false
   page-footer: 
     left: "Created by Greg Brooks, in association with Apra Utah"
+
+    
   sidebar:
     style: "docked"
-    search: true
+    search: false
     contents: 
-      - href: index.qmd
-      - href: about.qmd
       - section: "Tools"
-      - href: toolkit_dashboard1.qmd
-      - href: templates.qmd
-      - section: "Tutorials & Blog"
+        contents: 
+          - templates.qmd
+          - toolkit_dashboard1.qmd
+      - section: "Education"
         contents: 
           - tutorials.qmd
           - blog.qmd

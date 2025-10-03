@@ -3,5 +3,9 @@ title: "Toolkit Blog"
 format: html
 listing: 
     contents: toolkit_blog
+    sort: "date desc"
     type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
 ---

@@ -4,25 +4,132 @@
     "href": "tutorials.html",
     "title": "Tutorials & How-to",
     "section": "",
-    "text": "nothing here yet!\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of Cars - an example from quarto\n\n\n\n\n\n\nn/a\n\n\nOct 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAnalysis of Cars - an example from quarto\n\n\n\n\n\n\nn/a\n\n\nOct 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\nPaid tool\n\nExcel\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
     "crumbs": [
-      "Tutorials & Blog",
+      "Home",
+      "Education",
       "Tutorials & How-to"
     ]
   },
   {
-    "objectID": "tools/free_tools/free_external/index.html",
-    "href": "tools/free_tools/free_external/index.html",
-    "title": "Free External Resources",
+    "objectID": "tools/free_tools/software/index.html",
+    "href": "tools/free_tools/software/index.html",
+    "title": "Prospect Research Toolkit",
     "section": "",
-    "text": "The Prospect Research Institute has free resources available, but some of them are out of date, since their focus is currently on creating paid training with clients. See some research specific pages here: Prospect Research."
+    "text": "Back to top"
   },
   {
-    "objectID": "toolkit_tutorials/index.html",
-    "href": "toolkit_tutorials/index.html",
-    "title": "Tutorials",
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html",
+    "title": "Using PowerQuery",
     "section": "",
-    "text": "No matching items"
+    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
+    "title": "Using PowerQuery",
+    "section": "",
+    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
+    "title": "Using PowerQuery",
+    "section": "PowerQuery vs. VLookup",
+    "text": "PowerQuery vs. VLookup\n\n\n\n\n\n\n\n\nFeature\nPower Query\nVLOOKUP\n\n\n\n\nPurpose\nData transformation and preparation\nLook up and retrieve specific data values\n\n\nData Sources\nConnects to multiple sources (Excel, SQL, web, etc.)\nLimited to data within the worksheet\n\n\nComplexity\nMore complex with advanced capabilities\nSimpler and straightforward\n\n\nOutput\nCreates tables or queries in Excel\nReturns a single value based on a match\n\n\nFlexibility\nHighly versatile, allows for data shaping\nLess flexible; limited to a single match type\n\n\nUse Cases\nIdeal for ETL processes and bulk data manipulation\nBest for simple lookups within a single dataset\n\n\nMaintenance\nRequires more setup but easier to update over time\nSimple to set up but can be error-prone if data changes"
+  },
+  {
+    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
+    "href": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
+    "title": "Using PowerQuery",
+    "section": "Use-cases",
+    "text": "Use-cases\nYour workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.\n\nScenario 1\nYou have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.\n\n\nSteps to Achieve This\n\nExport Data from CRM: Start by exporting the relevant data from your CRM into a CSV or Excel format.\nImport Data into Power Query: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.\nCombine Datasets: Use Power Query tools to merge or append the datasets based on a common identifier.\nTransform Data: Clean, filter, or reshape the data as necessary.\nLoad the Combined Data: Once satisfied with the combined data, load it back into Excel for analysis or reporting.\n\nMore complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI"
+  },
+  {
+    "objectID": "toolkit_blog/PRSPCT-L_roundup/index.html",
+    "href": "toolkit_blog/PRSPCT-L_roundup/index.html",
+    "title": "PRSPCT-L Roundup",
+    "section": "",
+    "text": "A compilation of some of my favorite resources / comments / things I’ve learned from PRSPCT-L.\n\nReferences\nI’ve included links to the posts, so you can follow the original conversation. Not sure how folks would like me to attribute their contributions, so in lieu of posting names / job titles here, I figure folks can follow the links and log into PRSPCT-L to thank folks directly. In every case, I am transforming the content somehow, not directly quoting.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "Templates",
+    "section": "",
+    "text": "Excel templates\n\n\nother templates (?)\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Tools",
+      "Templates"
+    ]
+  },
+  {
+    "objectID": "free_resources_links.html",
+    "href": "free_resources_links.html",
+    "title": "Free External Resources",
+    "section": "",
+    "text": "No matching items\n Back to top",
+    "crumbs": [
+      "Home",
+      "External Resources",
+      "Free External Resources"
+    ]
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Toolkit Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nPRSPCT-L Roundup\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 4, 2025\n\n\n\n\n\n\n\n\n\n\n\nTechnical Field Guide\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "crumbs": [
+      "Home",
+      "Education",
+      "Toolkit Blog"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "…\nThis toolkit is maintained by Greg Brooks in association with Apra Utah."
+  },
+  {
+    "objectID": "about.html#why-does-this-exist",
+    "href": "about.html#why-does-this-exist",
+    "title": "About",
+    "section": "Why does this exist?",
+    "text": "Why does this exist?\nThere are plenty of excellent paid resources available—Apra, private consultants, subscription tools, books—but not everyone has the budget to access them. This field guide is being created to fill that gap. It’s a free, practical guide for researchers who want to learn the ropes, sharpen their skills, and explore the technical side of prospecting without breaking the bank. While some chapters cover beginner-friendly tools and techniques, others dive into more advanced territory—things like building donor personas, interpreting affinity scores, using AI agents, and navigating CRMs.\nWhether you’re a solo researcher juggling multiple roles or part of a larger team looking to modernize your approach, this guide is meant to be flexible, accessible, and useful across a wide range of experience levels. It’s also designed to be a living document, updated regularly to reflect changes in software, strategy, and the broader landscape of philanthropy. Like the Apra Utah GitHub / Prospect Research Toolkit, the philosophy behind this guide is rooted in open-source thinking and community-driven learning."
+  },
+  {
+    "objectID": "about.html#who-is-this-guy-anyway",
+    "href": "about.html#who-is-this-guy-anyway",
+    "title": "About",
+    "section": "Who is this guy anyway?",
+    "text": "Who is this guy anyway?\nI come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. That means there are probably some big gaps in my knowledge and skills—which is why I’m hoping to collaborate with others to expand this field guide and toolkit.\nRight now, I’m really happy that I finally figured out how to deploy this Quarto website via GitHub pages, and am making progress in refining it’s simple structure. The toolkit and field guide are essentially empty, right now, which makes this website seem a little silly - but I’m hard at work getting stuff ready to flesh out the toolkit and guide."
+  },
+  {
+    "objectID": "about.html#tutorials-docs-being-used-to-create-this-website",
+    "href": "about.html#tutorials-docs-being-used-to-create-this-website",
+    "title": "About",
+    "section": "Tutorials & Docs being used to create this website",
+    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources\nToolkit structure aiming to take notes from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nDr. Mickaël CANOUIL is a Quarto extension rockstar, scientist, and writes really clear tutorials\n“Mastering Data Visualization using R, Quarto, and the Tidyverse” - all tools I love\nQuarto dashboard lecture\nvery helpful example of quarto details like relative paths"
+  },
+  {
+    "objectID": "data/readme.html",
+    "href": "data/readme.html",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prospect Research Toolkit",
+    "section": "",
+    "text": "…\n\n\nVersion: 0.1.1-alpha\n\nHowdy, partner. Welcome to camp!\nYou know how they say, “there’s gold in them thar hills?” - well, I’ve set out to create the resource I always wish existed: a free, community-driven library of tools for the scrappy fundraising prospector, along with a field guide to put all of them into practice.\nI hope this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a’clankin’!\nFor more info about the who, what, where, and why…feel free to check out the About page.\nThanks for reading and happy trails.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "toolkit_blog/first_blog/index.html",
@@ -53,77 +160,53 @@
     "text": "For prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe).\nResearch is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst…I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age.\nWhat we research, and how we research, can have downstream effects on our moods– positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question…while competing deadlines threaten to derail the session…not fun.\nSome folks are better at managing the “research posture”, the way one mentally approaches the job, and I think it’s one of the key skills that blends both hard and soft skills.\nWhat does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations.\nIn some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it’s important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prospect Research Toolkit",
+    "objectID": "toolkit_blog/technical_field_guide/index.html",
+    "href": "toolkit_blog/technical_field_guide/index.html",
+    "title": "Technical Field Guide",
     "section": "",
-    "text": "…\n\n\nVersion: 0.1-alpha\n\nHowdy, partner. Welcome to camp!\nYou know how they say, “there’s gold in them thar hills?” - well, I’ve set out to create the resource I always wish existed: a free, community-driven library of tools for the scrappy fundraising prospector, along with a field guide to put all of them into practice.\nI hope this toolkit will expand to be an invaluable resource for those splashing through the data streams, Excel sluice boxes and CRM picks a’clankin’!\nFor more info about the who, what, where, and why…feel free to check out the About page.\nThanks for reading and happy trails.",
-    "crumbs": [
-      "Prospect Research Toolkit"
-    ]
+    "text": "…"
   },
   {
-    "objectID": "index.html#goals",
-    "href": "index.html#goals",
-    "title": "Prospect Research Toolkit",
-    "section": "Goals",
-    "text": "Goals\nCreate high quality, community-driven, prospect research education and tools - and keep them free to use forever.\n\nShort-term\n\nSynthetic donor dataset for training, examples, and presentations\nAI Prompt library and use-cases, as well as “helper files” for creating stronger research posture without having to initialize an entire agent\nSoftware tool comparisons, paid and free\nTemplates and tutorials\n\n\n\nLong-term\n\nExtensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)\nStandalone app that integrates with free and paid tools\nCollaboration with other Apra chapters and Apra International\nA prospect research field guide that combines tools, blog posts, tutorials, and edcuation into one cohesive whole - and can be downloaded as PDF as well as read online",
-    "crumbs": [
-      "Prospect Research Toolkit"
-    ]
+    "objectID": "toolkit_blog/technical_field_guide/index.html#section-i-getting-started-in-prospect-research",
+    "href": "toolkit_blog/technical_field_guide/index.html#section-i-getting-started-in-prospect-research",
+    "title": "Technical Field Guide",
+    "section": "Section I: Getting Started in Prospect Research",
+    "text": "Section I: Getting Started in Prospect Research\n\nChapter 1: Trailheads — Career Paths in Prospect Research\n\nDay-to-day realities\nEntry points and growth paths\nSkills and specializations\nOrg charts & responsibilities\n\n\n\nChapter 2: Mapping the Terrain — Tools of the Trade\n\nOverview of key platforms\nFree vs. paid resources\nWorkflow impact"
   },
   {
-    "objectID": "index.html#tutorials-docs-being-used-to-create-this-website",
-    "href": "index.html#tutorials-docs-being-used-to-create-this-website",
-    "title": "Prospect Research Toolkit",
-    "section": "Tutorials & Docs being used to create this website",
-    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources\nToolkit structure aiming to take notes from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nDr. Mickaël CANOUIL is a Quarto extension rockstar, scientist, and writes really clear tutorials\n“Mastering Data Visualization using R, Quarto, and the Tidyverse” - all tools I love\nQuarto dashboard lecture",
-    "crumbs": [
-      "Prospect Research Toolkit"
-    ]
+    "objectID": "toolkit_blog/technical_field_guide/index.html#section-ii-managing-a-research-shop",
+    "href": "toolkit_blog/technical_field_guide/index.html#section-ii-managing-a-research-shop",
+    "title": "Technical Field Guide",
+    "section": "Section II: Managing a Research Shop",
+    "text": "Section II: Managing a Research Shop\n\nChapter 3: Your New Shop\n\nProspect management vs. Prospect research vs. Data team\nProject management + project management systems\n\n\n\nChapter 4: Hiring, Interviews, Soft Skills\n\nHiring\nTechnical interviews\nCommunication\n\n\n\nChapter 5: Professional Development\n\nTraining\nProfessional associations and conferences\nCerts and degrees\n\n\n\nChapter 6: Compliance & Legal Landscape\n\nFor different niches\nEthics"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Toolkit Blog",
-    "section": "",
-    "text": "Let’s talk data privacy\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nTechnical Field Guide\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Tutorials & Blog",
-      "Toolkit Blog"
-    ]
+    "objectID": "toolkit_blog/technical_field_guide/index.html#section-iii-classic-research-strategies",
+    "href": "toolkit_blog/technical_field_guide/index.html#section-iii-classic-research-strategies",
+    "title": "Technical Field Guide",
+    "section": "Section III: Classic Research Strategies",
+    "text": "Section III: Classic Research Strategies\n\nChapter 7: Foundation Research — Mining 990s\n\nUnderstanding Form 990s\nUsing Foundation Directory Online and similar tools\nIdentifying institutional giving trends\nEvaluating foundation capacity and priorities\n\n\n\nChapter 8: Company Research and Executive Compensation\n\nPublic vs. private company data\nSources for executive pay and equity holdings\nEvaluating corporate affiliations and influence\nRed flags and wealth indicators\n\n\n\nChapter 9: Writing Profiles\n\n…\n\n\n\nChapter 10: Handling Research Requests\n\n…"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "…\nThis toolkit is maintained by Greg Brooks in association with Apra Utah.",
-    "crumbs": [
-      "About"
-    ]
+    "objectID": "toolkit_blog/technical_field_guide/index.html#section-iv-software-tools-and-platforms",
+    "href": "toolkit_blog/technical_field_guide/index.html#section-iv-software-tools-and-platforms",
+    "title": "Technical Field Guide",
+    "section": "Section IV: Software Tools and Platforms",
+    "text": "Section IV: Software Tools and Platforms\n\nChapter 11: CRMs - Navigating the Big Systems\n\nSalesforce, Blackbaud, Ellucian\nIntegrating research data\nReporting and collaboration\n\n\n\nChapter 12: Prospectin’ with LinkedIn Sales Navigator\n\nDonor discovery strategies\nPersona building by title, geography, seniority\nLimitations and practical tips\n\n\n\nChapter 13: Lexis Nexis — Deep Dives into Public Records\n\nWealth indicators\nLegal and business data\nEthical considerations\n\n\n\nChapter 14: iWave — Multi-Source Prospecting\n\nCapacity ratings\nReal estate, donations, and affiliations\nCustom scoring models\n\n\n\nChapter 15: AI Agents and LLMs — The New Frontier\n\nUse of generative AI in research\nAutomating tasks and summarization\nRisks, accuracy, and ethical use\n\n\n\nChapter 16: Free Alternatives for Small Shops / Solo Researchers\n\nOpen-source software\nLimitations and opportunities\n\n\n\nChapter 17: Building a Proactive Alerts-Driven Observatory\n\nPlatform-specific alerts\nSifting strategies\nWorkflow, alert management"
   },
   {
-    "objectID": "free_resources_links.html",
-    "href": "free_resources_links.html",
-    "title": "Free External Resources",
-    "section": "",
-    "text": "No matching items",
-    "crumbs": [
-      "External Resources",
-      "Free External Resources"
-    ]
+    "objectID": "toolkit_blog/technical_field_guide/index.html#section-v-data-management-analytics-and-it-infrastructure",
+    "href": "toolkit_blog/technical_field_guide/index.html#section-v-data-management-analytics-and-it-infrastructure",
+    "title": "Technical Field Guide",
+    "section": "Section V: Data Management, Analytics, and IT Infrastructure",
+    "text": "Section V: Data Management, Analytics, and IT Infrastructure\n\nChapter 18: Data Integrity and Hygiene — Keeping the Camp Clean\n\nCommon data issues\nMaintenance workflows\nGovernance and documentation\n\n\n\nChapter 19: Information Science — When You’re the One-Stop Shop\n\nOrganizing and retrieving data\nMetadata and taxonomy basics\nBuilding internal knowledge systems\nIT systems\n\n\n\nChapter 20: Analytics\n\nDashboards\nMetrics\n\n\n\nChapter 21: Personas and Affinity Scores — Profiling the Donor Landscape\n\nAffinity score construction\nDonor personas and use cases\nData challenges and edge cases\nExperiential, communication, philanthropic, volunteer categories\nTurning engagement into insights\nData engineering challenges"
   },
   {
-    "objectID": "templates.html",
-    "href": "templates.html",
-    "title": "Tools",
-    "section": "",
-    "text": "Excel templates\n\n\nother templates (?)",
-    "crumbs": [
-      "Templates",
-      "Templates"
-    ]
+    "objectID": "toolkit_blog/technical_field_guide/index.html#section-vi-case-studies",
+    "href": "toolkit_blog/technical_field_guide/index.html#section-vi-case-studies",
+    "title": "Technical Field Guide",
+    "section": "Section VI: Case Studies",
+    "text": "Section VI: Case Studies\n\nChapter 22: Higher Education\n\n\nChapter 23: Healthcare\n\n\nChapter 24: Other Niches"
   },
   {
     "objectID": "toolkit_tutorials/CodeBlockTesting/index.html",
@@ -140,11 +223,11 @@
     "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
   },
   {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#powerquery-vs.-vlookup",
-    "title": "Using PowerQuery",
-    "section": "PowerQuery vs. VLookup",
-    "text": "PowerQuery vs. VLookup\n\n\n\n\n\n\n\n\nFeature\nPower Query\nVLOOKUP\n\n\n\n\nPurpose\nData transformation and preparation\nLook up and retrieve specific data values\n\n\nData Sources\nConnects to multiple sources (Excel, SQL, web, etc.)\nLimited to data within the worksheet\n\n\nComplexity\nMore complex with advanced capabilities\nSimpler and straightforward\n\n\nOutput\nCreates tables or queries in Excel\nReturns a single value based on a match\n\n\nFlexibility\nHighly versatile, allows for data shaping\nLess flexible; limited to a single match type\n\n\nUse Cases\nIdeal for ETL processes and bulk data manipulation\nBest for simple lookups within a single dataset\n\n\nMaintenance\nRequires more setup but easier to update over time\nSimple to set up but can be error-prone if data changes"
+    "objectID": "tools/free_tools/free_external/index.html",
+    "href": "tools/free_tools/free_external/index.html",
+    "title": "Free External Resources",
+    "section": "",
+    "text": "The Prospect Research Institute has free resources available, but some of them are out of date, since their focus is currently on creating paid training with clients. See some research specific pages here: Prospect Research.\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "tools.html#free-tools",
@@ -159,43 +242,5 @@
     "title": "Tools",
     "section": "Paid tools",
     "text": "Paid tools"
-  },
-  {
-    "objectID": "about.html#tutorials-docs-being-used-to-create-this-website",
-    "href": "about.html#tutorials-docs-being-used-to-create-this-website",
-    "title": "About",
-    "section": "Tutorials & Docs being used to create this website",
-    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources\nToolkit structure aiming to take notes from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nDr. Mickaël CANOUIL is a Quarto extension rockstar, scientist, and writes really clear tutorials\n“Mastering Data Visualization using R, Quarto, and the Tidyverse” - all tools I love\nQuarto dashboard lecture",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "toolkit_blog/technical_field_guide/index.html",
-    "href": "toolkit_blog/technical_field_guide/index.html",
-    "title": "Technical Field Guide",
-    "section": "",
-    "text": "…"
-  },
-  {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html",
-    "title": "Using PowerQuery",
-    "section": "",
-    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
-  },
-  {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#what-is-powerquery",
-    "title": "Using PowerQuery",
-    "section": "",
-    "text": "Power Query is a data connection technology in Excel that allows users to connect, combine, and refine data from various sources.\n\n\n\nData Importing: Pulls data from multiple sources (databases, web pages, files).\nData Transformation: Offers tools to clean and reshape data, such as filtering, merging, and aggregating.\nUser-Friendly Interface: Provides a visual interface for users to apply transformations without coding.\nIntegration: Seamlessly integrates with Excel, allowing transformed data to be loaded into worksheets for analysis.\n\nIn essence, Power Query simplifies data preparation, enabling users to focus on analysis and insights."
-  },
-  {
-    "objectID": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
-    "href": "toolkit_tutorials/UsingPowerQuery/index.html#use-cases",
-    "title": "Using PowerQuery",
-    "section": "Use-cases",
-    "text": "Use-cases\nYour workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.\n\nScenario 1\nYou have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.\n\n\nSteps to Achieve This\n\nExport Data from CRM: Start by exporting the relevant data from your CRM into a CSV or Excel format.\nImport Data into Power Query: Open Excel, go to the Data tab, and select “Get Data” to import your CRM data and your custom dataset.\nCombine Datasets: Use Power Query tools to merge or append the datasets based on a common identifier.\nTransform Data: Clean, filter, or reshape the data as necessary.\nLoad the Combined Data: Once satisfied with the combined data, load it back into Excel for analysis or reporting.\n\nMore complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI"
   }
 ]
