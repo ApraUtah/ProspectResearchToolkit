@@ -25,4 +25,3 @@ This is a simple dashboard that lets you compare different software options for 
 #| title: Comparison table
 
 head(softwarecompare_data)
-```
