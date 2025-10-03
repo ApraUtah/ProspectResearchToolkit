@@ -29,7 +29,9 @@ website:
         contents:
           - toolkit_dashboard1.qmd
       - section: "Templates"
-        contents: templates.qmd
+        contents: 
+          - templates.qmd
+          - org_template1.qmd
       - section: "Tutorials & Blog"
         contents: 
           - tutorials.qmd
