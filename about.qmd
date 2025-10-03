@@ -48,6 +48,9 @@ Right now, I'm really happy that I finally figured out how to deploy this Quarto
 - Toolkit structure aiming to take notes from [Bellingcat's Online Investigative Toolkit](https://bellingcat.gitbook.io/toolkit){.external} as a way to establish a community-driven library of helpful resources. Bellingcat's toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone. 
 - [Dr. Mickaël CANOUIL is a Quarto extension rockstar, scientist, and writes really clear tutorials](https://mickael.canouil.fr/posts/2025-05-19-quarto-codespaces/)
 - ["Mastering Data Visualization using R, Quarto, and the Tidyverse" - all tools I love](https://data-vis-using-r.info/03_intro_to_quarto/intro_to_quarto.html)
-- [Quarto dashboard lecture](https://vizdata.org/slides/20/20-quarto-dashboards.html#/qmd-dashboard)
 - [very helpful example of quarto details like relative paths](https://quarto.neocities.org/docs/relative_paths)
+
+### dashboards
+- [example from UCSB](https://learning.nceas.ucsb.edu/2024-03-ucsb-faculty/session_10.html)
+- [Quarto dashboard lecture](https://vizdata.org/slides/20/20-quarto-dashboards.html#/qmd-dashboard)
 

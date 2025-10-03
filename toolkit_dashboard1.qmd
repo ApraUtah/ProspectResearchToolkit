@@ -2,11 +2,27 @@
 title: Toolkit Dashboard
 format: dashboard
 ---
+```{r, setup}
+#| include: false
 
-## Row {height=70%}
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+```
 
 ```{r}
+# save data to object
+softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/software_compare.csv"))
 
-softwarecompare_data <- read.csv("")
+```
 
+This is a simple dashboard that lets you compare different software options for prospect research.
+
+## Row 1
+
+```{r}
+#| title: Comparison table
+
+head(softwarecompare_data)
 ```
