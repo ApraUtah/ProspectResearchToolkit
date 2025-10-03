@@ -25,6 +25,9 @@ website:
       - text: "Home"
       - href: index.qmd
       - section: "Tools"
+      - section: "Dashboard"
+        contents:
+          - toolkit_dashboard1.qmd
       - section: "Templates"
         contents: templates.qmd
       - section: "Tutorials & Blog"
