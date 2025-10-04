@@ -1,6 +1,7 @@
 ---
 title: Toolkit Dashboard
 format: dashboard
+    logo: 
 ---
 ```{r, setup}
 #| include: false
@@ -16,8 +17,11 @@ library(readr)
 softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/software_compare.csv"))
 
 ```
+# {.sidebar}
 
-This is a simple dashboard that lets you compare different software options for prospect research.
+Simple dashboard for several small datasets for prospect dev software comparison, analyst salary reviews, etc
+
+# Page 1
 
 ## Row 1
 
@@ -25,3 +29,21 @@ This is a simple dashboard that lets you compare different software options for 
 #| title: Comparison table
 
 head(softwarecompare_data)
+
+```
+
+## Row 2
+
+...
+
+# Page 2
+
+# {.sidebar}
+Jobs data on this page (note for the future)
+
+## Row 1
+
+...
+
+
+## Row 2
