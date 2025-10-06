@@ -4,7 +4,7 @@
     "href": "tutorials.html",
     "title": "Tutorials & How-to",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAnalysis of Cars - an example from quarto\n\n\n\n\n\n\nn/a\n\n\nOct 3, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\nPaid tool\n\nExcel\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAnalysis of Cars - an example from quarto\n\n\n\n\n\n\nn/a\n\n\nOct 6, 2025\n\n\n\n\n\n\n\n\n\n\n\nUsing PowerQuery\n\n\n\nPaid tool\n\nExcel\n\n\n\n\n\n\n\nGreg Brooks\n\n\nOct 3, 2025\n\n\n\n\n\n\nNo matching items\n Back to top",
     "crumbs": [
       "Home",
       "Education",
@@ -115,7 +115,7 @@
     "href": "about.html#tutorials-docs-being-used-to-create-this-website",
     "title": "About",
     "section": "Tutorials & Docs being used to create this website",
-    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources\nToolkit structure aiming to take notes from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nDr. Mickaël CANOUIL is a Quarto extension rockstar, scientist, and writes really clear tutorials\n“Mastering Data Visualization using R, Quarto, and the Tidyverse” - all tools I love\nvery helpful example of quarto details like relative paths\n\n\ndashboards\n\nexample from UCSB\nQuarto dashboard lecture"
+    "text": "Tutorials & Docs being used to create this website\n\nQuarto docs\nSet-up tutorial by Dan Yavorksy\nDocumentation philosophy\nQuarto docs, another way to read them\nImages and design inspiration from Cynthia Huang\nQuarto curated Github resources\nToolkit structure aiming to take notes from Bellingcat’s Online Investigative Toolkit as a way to establish a community-driven library of helpful resources. Bellingcat’s toolkit is intended for investigative journalists, a world not disimilar to our own as prospect researchers, so it serves as a solid touchstone.\nDr. Mickaël CANOUIL is a Quarto extension rockstar, scientist, and writes really clear tutorials\n“Mastering Data Visualization using R, Quarto, and the Tidyverse” - all tools I love\nvery helpful example of quarto details like relative paths\n\n\ndashboards\n\nexample from UCSB\nQuarto dashboard lecture\nShinylive + Quarto for interactivity that doesn’t rely on server"
   },
   {
     "objectID": "data/readme.html",
@@ -220,7 +220,7 @@
     "href": "toolkit_tutorials/CodeBlockTesting/index.html#sub-header",
     "title": "Analysis of Cars - an example from quarto",
     "section": "Sub-Header",
-    "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
+    "text": "Sub-Header\nHere is a plot:\n\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.4.2\n\n\nWarning: package 'ggplot2' was built under R version 4.4.2\n\n\nWarning: package 'tibble' was built under R version 4.4.2\n\n\nWarning: package 'tidyr' was built under R version 4.4.2\n\n\nWarning: package 'readr' was built under R version 4.4.2\n\n\nWarning: package 'purrr' was built under R version 4.4.2\n\n\nWarning: package 'dplyr' was built under R version 4.4.2\n\n\nWarning: package 'stringr' was built under R version 4.4.2\n\n\nWarning: package 'forcats' was built under R version 4.4.2\n\n\nWarning: package 'lubridate' was built under R version 4.4.2\n\ndata(mtcars)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) + \n  geom_point(color=\"dodgerblue4\", size=2)"
   },
   {
     "objectID": "tools/free_tools/free_external/index.html",
