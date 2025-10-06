@@ -1,7 +1,6 @@
 ---
 title: Toolkit Dashboard
 format: dashboard
-    logo: 
 ---
 ```{r, setup}
 #| include: false
