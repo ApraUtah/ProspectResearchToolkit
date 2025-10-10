@@ -17,6 +17,7 @@ library(htmlwidgets)
 ```{r}
 # save data to object
 softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_tool_comparisons.csv"))
+software_term_data <- data.frame(read_csv(".../ProspectResearchToolkit/data/pr_jobs_dataset_softwarefreq_10-9-25.csv"))
 ```
 
 
@@ -41,12 +42,10 @@ datatable(softwarecompare_data)
 
 # Page 2
 ```{r}
-n_cars <- nrow(mpg)
+cat("title=", "Software terms metioned in job descriptions")
 
-cat("title=", "Drive types of", n_cars, "cars")
+datatable(software_term_data)
 
-ggplot(mpg, aes(x = drv)) +
-  geom_bar()
 ```
 ## Row 1
 
