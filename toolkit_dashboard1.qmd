@@ -1,8 +1,6 @@
 ---
-title: Dashboard
-format: 
-    dashboard:
-     logo: images/campside-sluicebox.jpg
+title: Toolkit Dashboard
+format: dashboard
 ---
 ```{r, setup}
 #| include: false

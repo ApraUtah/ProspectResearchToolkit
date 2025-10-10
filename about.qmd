@@ -19,7 +19,7 @@ This toolkit is maintained by [Greg Brooks](https://github.com/analyst-greg/){.e
 - Extensions or add-ins, or community plugins (potentially starting with Obsidian or Excel)
 - Standalone app that integrates with free and paid tools
 - Collaboration with other Apra chapters and Apra International
-- A completed prospect research field guide that combines tools, blog posts, tutorials, and edcuation into one cohesive whole - and can be downloaded as PDF as well as read online
+- A completed prospect research field guide that combines tools, blog posts, tutorials, and education into one cohesive whole - and can be downloaded as PDF as well as read online
 - Sponsorship, to have budget for custom domain and/or server
 
 ***
