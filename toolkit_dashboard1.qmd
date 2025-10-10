@@ -4,11 +4,11 @@ format: dashboard
 ---
 ```{r, setup}
 #| include: false
+library(DT)
 library(ggplot2)
 library(dplyr)
 library(readr)
 library(tidyverse)
-library(DT)
 library(crosstalk)
 library(htmlwidgets)
 
