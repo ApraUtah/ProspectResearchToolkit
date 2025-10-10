@@ -4,10 +4,13 @@ format: dashboard
 ---
 ```{r, setup}
 #| include: false
-
 library(ggplot2)
 library(dplyr)
 library(readr)
+library(tidyverse)
+library(DT)
+library(crosstalk)
+library(htmlwidgets)
 
 ```
 
@@ -26,10 +29,17 @@ Simple dashboard for several small datasets for prospect dev software comparison
 ```{r}
 #| title: Comparison table
 
-head(softwarecompare_data)
+datatable(softwarecompare_data)
 
 ```
 
+
+
+## Row 2
+
+...
+
+# Page 2
 ```{r}
 n_cars <- nrow(mpg)
 
@@ -38,13 +48,6 @@ cat("title=", "Drive types of", n_cars, "cars")
 ggplot(mpg, aes(x = drv)) +
   geom_bar()
 ```
-
-## Row 2
-
-...
-
-# Page 2
-
 ## Row 1
 
 ...

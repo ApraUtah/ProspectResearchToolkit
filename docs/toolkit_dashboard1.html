@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dashboard – Prospect Research Toolkit</title>
+<title>Toolkit Dashboard – Prospect Research Toolkit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,13 +80,33 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+
 
 
 <meta property="og:title" content="Toolkit Dashboard – Prospect Research Toolkit">
 <meta property="og:site_name" content="Prospect Research Toolkit">
 </head>
 
-<body class="quarto-dashboard nav-sidebar nav-fixed dashboard-fill dashboard-sidebar fullcontent quarto-light">
+<body class="quarto-dashboard nav-sidebar nav-fixed dashboard-fill fullcontent quarto-light">
 
 
 <div id="quarto-search-results"></div>
@@ -137,10 +157,10 @@ ul.task-list li input[type="checkbox"] {
 
 
     <div class="navbar-brand-container">
-    <a href="#"><img src="images/campside-sluicebox.jpg" alt="" class="navbar-logo light-content d-inline-block"></a>
-    <a href="#"><img src="images/campside-sluicebox.jpg" alt="" class="navbar-logo dark-content d-inline-block"></a>
+
+
       <div class="navbar-title">
-        <div class="navbar-title-text"><a href="#">Dashboard</a></div>
+        <div class="navbar-title-text"><a href="#">Toolkit Dashboard</a></div>
         
         
       </div>
@@ -149,31 +169,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 </header></header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages dashboard-sidebar-container">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">
 <!-- sidebar -->
 <!-- margin-sidebar -->
 <!-- main -->
 
-<div class="bslib-sidebar-layout html-fill-item html-fill-container" data-bslib-sidebar-open="desktop" data-bslib-sidebar-init="true" data-bslib-sidebar-border="false" data-bslib-sidebar-border-radius="false"><div class="main html-fill-container html-fill-item"><div class="sidebar-content html-fill-item html-fill-container">
-<div class="tab-content bslib-grid html-fill-item html-fill-container" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
+<p>Simple dashboard for several small datasets for prospect dev software comparison, analyst salary reviews, etc</p>
+<div class="bslib-grid-item html-fill-item tab-content bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
 <div id="page-1" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-page-1">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
 <div class="card cell html-fill-item html-fill-container bslib-card" data-title="Comparison table" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title html-fill-item html-fill-container"><span style="display: inline">
+<div class="card-header"><div class="card-title"><span style="display: inline">
 Comparison table
 </span></div></div>
 <div class="card-body html-fill-item html-fill-container">
-<div class="cell-output cell-output-stdout html-fill-item html-fill-container">
-<pre><code>  software.ID    Tool.Name          Tool.Type              Cost Notes
-1      PR-001  DonorSearch           Research              Paid    NA
-2      PR-002 AlumniFinder           Research              Paid    NA
-3      PR-003        iWave           Research              Paid    NA
-4      PR-004     Allucian                CRM              Paid    NA
-5      PR-005   Salesforce                CRM              Paid    NA
-6      PR-006         Jira Project Management Limited free tier    NA</code></pre>
+<div class="cell-output-display html-fill-item html-fill-container">
+<div class="datatables html-widget html-fill-item html-fill-container" id="htmlwidget-8c3887146258189c2842" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-8c3887146258189c2842">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42"],["PR-001","PR-002","PR-003","PR-004","PR-005","PR-006","PR-007","PR-008","PR-009","PR-010","PR-011","PR-012","PR-013","PR-014","PR-015","PR-016","PR-017","PR-018","PR-019","PR-020","PR-021","PR-022","PR-023","PR-024","PR-025","PR-026","PR-027","PR-028","PR-029","PR-030","PR-031","PR-032","PR-033","PR-034","PR-035","PR-036","PR-037","PR-038","PR-039","PR-040","PR-041","PR-042"],["DonorSearch","AlumniFinder","LexisNexis","DonorAtlas","AI Identified","RE NXT (Blackbaud)","ResearchPoint","iWave (Kindsight)","Ascend (Salesforce)","Candid Foundation Directory","DonorPerfect","DonorSearch","WealthEngine","Windfall","Kaleidoscope","Altrata","Insightful","Wealth-X","RELSCI","Dun &amp; Bradstreet","DatabaseUSA","ZoomInfo","Larkspur","VeriGift","PowerQuery","Jira","Asana","Trello","Zendesk","Click-up","PowerBI","Tableau","Almaconnect","Pitchbook","MergentOnline","Excel","Obsidian","Instagram","LinkedIn","SalesNavigator (LinkedIn)","Facebook","Bitwarden"],["Research Platform","Research Platform","Research Platform","Research Platform","Research Platform","CRM","Research Platform","Research Platform","CRM","Research Platform","Research Platform","Research Platform","Research Platform","Research Platform","Research Platform","Data Broker / Source","Research Platform","Research Platform","Data Broker / Source","Data Broker / Source","Data Broker / Source","Data Broker / Source","Data Broker / Source","Research Platform","Data Analysis / Reporting","Project Management","Project Management","Project Management","Project Management","Project Management","Data Analysis / Reporting","Data Analysis / Reporting","Research Platform","Data Broker / Source","Data Broker / Source","Data Analysis / Reporting","Knowledge Management","Social Media","Social Media","Research Platform","Social Media","Security"],["Paid","Paid","Paid","Paid","Paid","Paid","Paid","Paid","Paid","Limited free tier","Limited free tier","Limited free tier","Limited free tier","Limited free tier","Limited free tier","Limited free tier","Limited free tier","Limited free tier","Limited free tier","Limited free tier",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,"Donor Profiles, Wealth screening, Due dilligence","Due dilligence, Donor Profiles, Alerts","Donor Profiles","Alerts",null,"Wealth screening","Wealth screening, Donor Profiles, Alerts",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,"Ellucian, Salesforce, RE NXT (Blackbaud)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,"Rough estimate of sources: 13,685, across multiple categories","New",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"iWave's proprietary database of charitable data, still need to map out it's mechanics or sources",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"OpenRefine",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>software.ID<\/th>\n      <th>Tool.Name<\/th>\n      <th>Tool.Type<\/th>\n      <th>Cost<\/th>\n      <th>Research.Use.Cases<\/th>\n      <th>Integrations<\/th>\n      <th>Notes<\/th>\n      <th>Free.Alternative<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"bPaginate":false,"dom":"ifrt","language":{"info":"Showing _TOTAL_ entries"},"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"software.ID","targets":1},{"name":"Tool.Name","targets":2},{"name":"Tool.Type","targets":3},{"name":"Cost","targets":4},{"name":"Research.Use.Cases","targets":5},{"name":"Integrations","targets":6},{"name":"Notes","targets":7},{"name":"Free.Alternative","targets":8}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
@@ -197,41 +211,45 @@ grid-auto-rows: minmax(0, 1fr);">
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
 </div>
 </div>
-</div><div id="page-2" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-page-2">
+</div>
+<div id="page-2" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-page-2">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card cell html-fill-item html-fill-container bslib-card" data-title="Drive types of 234 cars" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-header"><div class="card-title"><span style="display: inline">
+Drive types of 234 cars
+</span></div></div>
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<img src="toolkit_dashboard1_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-dashboard-img-contain">
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container flow">
+…
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: ;
+grid-auto-rows: minmax(0, 1fr);">
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
 
 </div>
 </div>
-</div></div><aside id="bslib-sidebar-1" class="sidebar html-fill-container html-fill-item"><div class="html-fill-container html-fill-item">
-<p>Jobs data on this page (note for the future)</p>
-<section id="row-1-1">
-<div class="h2">
-Row
-
-1
 </div>
-<p>…</p>
-</section>
-<section id="row-2-1">
-<div class="h2">
-Row
-
-2
 </div>
-
-
-<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
-
-</div>
-</section>
-</div></aside>
-<button class="collapse-toggle" type="button" title="Toggle sidebar" aria-expanded="true" aria-controls="bslib-sidebar-1">
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-chevron-left collapse-icon" style="fill:currentColor;" aria-hidden="true" role="img">
-      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
-    </svg>
-</button>
-<script data-bslib-sidebar-init="">
-bslib.Sidebar.initCollapsibleAll()
-</script>
 </div>
 
 
