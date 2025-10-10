@@ -54,4 +54,5 @@ Right now, I'm really happy that I finally figured out how to deploy this Quarto
 - [example from UCSB](https://learning.nceas.ucsb.edu/2024-03-ucsb-faculty/session_10.html)
 - [Quarto dashboard lecture](https://vizdata.org/slides/20/20-quarto-dashboards.html#/qmd-dashboard)
 - [Shinylive + Quarto for interactivity that doesn't rely on server](https://quarto.thecoatlessprofessor.com/r-shinylive-demo/)
+- [More dashboard docs](https://quarto.org/docs/dashboards/data-display.html)
 

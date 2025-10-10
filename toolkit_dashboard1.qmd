@@ -17,15 +17,17 @@ library(htmlwidgets)
 ```{r}
 # save data to object
 softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_tool_comparisons.csv"))
-software_term_data <- data.frame(read_csv(".../ProspectResearchToolkit/data/pr_jobs_dataset_softwarefreq_10-9-25.csv"))
+software_term_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_jobs_dataset_softwarefreq_10-9-25.csv"))
+
+jobs <- 22
+
+
 ```
 
 
-Simple dashboard for several small datasets for prospect dev software comparison, analyst salary reviews, etc
+# Software Comparison
 
-# Page 1
-
-## Row 1
+## Row
 
 ```{r}
 #| title: Comparison table
@@ -35,21 +37,54 @@ datatable(softwarecompare_data)
 ```
 
 
+# Job Descriptions / Skills
 
-## Row 2
-
-...
-
-# Page 2
+## Row
 ```{r}
-cat("title=", "Software terms metioned in job descriptions")
+cat("title=", "Software terms metioned in 22 analyst job descriptions gathered starting 7/2024")
 
 datatable(software_term_data)
 
 ```
+
+```{r}
+cat("title=", "Software term chart")
+
+ggplot(data = software_term_data, aes(x = Term, y= Frequency)) + 
+geom_bar(stat = "identity", fill = "blue") +
+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+
+
+# Future dashboard elements
 ## Row 1
 
-...
-
-
-## Row 2
+```{r}
+#| content: valuebox
+#| title: "Valuebox with pencil icon"
+list(
+  icon = "pencil",
+  color = "danger",
+  value = jobs
+)
+```
+```{r}
+#| content: valuebox
+#| title: "Valuebox with trash icon"
+list(
+  icon = "trash",
+  color = "danger",
+  value = jobs
+)
+```
+```{r}
+#| content: valuebox
+#| title: "Valuebox with chat icon"
+list(
+  icon = "chat",
+  color = "danger",
+  value = jobs
+)
+```
