@@ -13,7 +13,7 @@ library(readr)
 
 ```{r}
 # save data to object
-softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/software_compare.csv"))
+softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_tool_comparisons.csv"))
 ```
 
 
@@ -28,6 +28,15 @@ Simple dashboard for several small datasets for prospect dev software comparison
 
 head(softwarecompare_data)
 
+```
+
+```{r}
+n_cars <- nrow(mpg)
+
+cat("title=", "Drive types of", n_cars, "cars")
+
+ggplot(mpg, aes(x = drv)) +
+  geom_bar()
 ```
 
 ## Row 2
