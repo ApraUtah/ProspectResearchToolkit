@@ -56,3 +56,5 @@ Right now, I'm really happy that I finally figured out how to deploy this Quarto
 - [Shinylive + Quarto for interactivity that doesn't rely on server](https://quarto.thecoatlessprofessor.com/r-shinylive-demo/)
 - [More dashboard docs](https://quarto.org/docs/dashboards/data-display.html)
 
+### synthetic dataset creation (for example donor dataset)
+- [very basic method in R](https://www.geeksforgeeks.org/r-language/how-to-create-a-custom-synthetic-dataset-in-r/)
