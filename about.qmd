@@ -58,3 +58,4 @@ Right now, I'm really happy that I finally figured out how to deploy this Quarto
 
 ### synthetic dataset creation (for example donor dataset)
 - [very basic method in R](https://www.geeksforgeeks.org/r-language/how-to-create-a-custom-synthetic-dataset-in-r/)
+- [more complex method](https://andreashandel.github.io/MADAcourse/content/module-synthetic-data/synthetic-data-new-r/synthetic-data-new-r.html)
