@@ -1,0 +1,1 @@
+Working on expanding the fundraising sector job titles dataset, using data gathered myself, and cross-comparing with public datasets like (CMap)[https://www.nature.com/articles/s41597-025-05526-3#Sec1]
