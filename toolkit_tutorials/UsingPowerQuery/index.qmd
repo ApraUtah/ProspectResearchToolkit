@@ -46,3 +46,101 @@ You have data in your CRM that you want to combine with another dataset you've f
 5. **Load the Combined Data**: Once satisfied with the combined data, load it back into Excel for analysis or reporting.
 
 More complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI
+
+~
+Example from the Fundraising Job Title dataset project:
+
+
+# Power Query M Code for Filtering Job Titles with Dynamic Keywords
+
+This document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to **Major Gifts** while excluding irrelevant ones.
+
+## Dynamic Keyword Parameters
+Instead of hardcoding the keywords, we define them as parameters:
+
+```m
+let
+    IncludeKeywords = Text.Split("Major Gift,Director Of Development,Development Officer,Major Gift Officer,Fundraiser,Philanthropy Officer,Philanthropy Manager", ","),
+    ExcludeKeywords = Text.Split("Prospect Research,Event", ",")
+```
+
+## Load and Filter Nonprofit Dataset
+We load the nonprofit dataset and filter it using the dynamic keyword lists:
+
+```m
+    Source = Csv.Document(File.Contents("..\jobtitlesdataset\Figure 4\dataset\titles\map\55198385_nonprofit.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {
+        {"sector", type text}, 
+        {"title_cleaned", type text}, 
+        {"frequency_cleaned", Int64.Type}, 
+        {"title_generalized", type text}, 
+        {"frequency_generalized", Int64.Type}, 
+        {"title_simplified", type text}, 
+        {"frequency_simplified", Int64.Type}
+    }),
+    IncludedRows = Table.SelectRows(ChangedType, each List.AnyTrue(List.Transform(IncludeKeywords, (kw) => Text.Contains([title_cleaned], kw)))),
+    FinalFilteredRows = Table.SelectRows(IncludedRows, each List.AllTrue(List.Transform(ExcludeKeywords, (kw) => not Text.Contains([title_cleaned], kw)))),
+    TitleList = Table.SelectColumns(FinalFilteredRows, {"title_cleaned"}),
+```
+
+## Reusable Filtering Function
+We define a reusable function to apply the same filtering logic to other datasets:
+
+```m
+    FilterDataset = (filePath as text) =>
+        let
+            Source = Csv.Document(File.Contents(filePath), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+            Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+            ChangedType = Table.TransformColumnTypes(Promoted, {
+                {"sector", type text}, 
+                {"title_cleaned", type text}, 
+                {"frequency_cleaned", Int64.Type}, 
+                {"title_generalized", type text}, 
+                {"frequency_generalized", Int64.Type}, 
+                {"title_simplified", type text}, 
+                {"frequency_simplified", Int64.Type}
+            }),
+            Matched = Table.Join(ChangedType, "title_cleaned", TitleList, "title_cleaned", JoinKind.Inner)
+        in
+            Matched,
+```
+
+## Dataset Paths and Execution
+We list all dataset paths and apply the filtering function:
+
+```m
+    DatasetPaths = {
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198352_travel_and_tourism.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198376_transportation_and_logistics.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55197857_restaurants_bars_and_food_services.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198349_real_estate.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198379_telecommunications.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198388_oil_gas_energy_and_utilities.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198394_retail.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198373_media.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198403_manufacturing.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198358_insurance.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198406_information_technology.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198382_government.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198397_health_care.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198391_education.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198400_finance.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198190_consumer_services.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198364_construction_repair_and_maintenance.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198409_business_services.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55197803_agriculture_and_forestry.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198355_arts_entertainment_and_recreation.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198370_biotech_and_pharmaceuticals.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198361_aerospace_and_defense.csv",
+        "..\jobtitlesdataset\Figure 4\dataset\titles\map\55198367_accounting_and_legal.csv"
+    },
+    FilteredTables = List.Transform(DatasetPaths, each FilterDataset(_)),
+    CombinedResults = Table.Combine(FilteredTables)
+in
+    CombinedResults
+```
+
+## Summary
+This script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values.
+
