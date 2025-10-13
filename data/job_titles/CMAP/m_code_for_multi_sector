@@ -1,0 +1,43 @@
+let
+    // Load title list (nonprofit sector)
+    TitleListSource = Csv.Document(File.Contents("..\Downloads\CMAP_prospectjobtitles_nonprofitsector_2017.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    TitleListTable = Table.PromoteHeaders(TitleListSource, [PromoteAllScalars=true]),
+    TitleList = Table.SelectColumns(TitleListTable, {"title_cleaned"}),
+
+    // Function to load and filter a dataset
+    FilterDataset = (filePath as text) =>
+        let
+            Source = Csv.Document(File.Contents(filePath), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+            Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+            Filtered = Table.Join(Promoted, "title_cleaned", TitleList, "title_cleaned", JoinKind.Inner)
+        in
+            Filtered,
+
+    // List of dataset paths (relative)
+    DatasetPaths = {
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198376_transportation_and_logistics.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198349_real_estate.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198379_telecommunications.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198388_oil_gas_energy_and_utilities.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198394_retail.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198373_media.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198403_manufacturing.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198358_insurance.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198406_information_technology.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198382_government.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198400_finance.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198190_consumer_services.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198364_construction_repair_and_maintenance.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198409_business_services.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55197803_agriculture_and_forestry.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198370_biotech_and_pharmaceuticals.csv",
+        "..\Downloads\jobtitlesdataset\Figure 4\dataset\titles\map\55198361_aerospace_and_defense.csv"
+    },
+
+    // Apply filtering function to all datasets
+    FilteredTables = List.Transform(DatasetPaths, each FilterDataset(_)),
+
+    // Combine all filtered tables
+    CombinedResults = Table.Combine(FilteredTables)
+in
+    CombinedResults
