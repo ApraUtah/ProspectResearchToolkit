@@ -1,0 +1,90 @@
+[
+  {
+    "sector": "Non-Profit",
+    "count": 113
+  },
+  {
+    "sector": "Education",
+    "count": 58
+  },
+  {
+    "sector": "Business Services",
+    "count": 52
+  },
+  {
+    "sector": "Information Technology",
+    "count": 32
+  },
+  {
+    "sector": "Health Care",
+    "count": 31
+  },
+  {
+    "sector": "Arts, Entertainment & Recreation",
+    "count": 23
+  },
+  {
+    "sector": "Finance",
+    "count": 18
+  },
+  {
+    "sector": "Media",
+    "count": 17
+  },
+  {
+    "sector": "Government",
+    "count": 15
+  },
+  {
+    "sector": "Accounting & Legal",
+    "count": 15
+  },
+  {
+    "sector": "Oil, Gas, Energy & Utilities",
+    "count": 10
+  },
+  {
+    "sector": "Retail",
+    "count": 8
+  },
+  {
+    "sector": "Real Estate",
+    "count": 7
+  },
+  {
+    "sector": "Manufacturing",
+    "count": 7
+  },
+  {
+    "sector": "Insurance",
+    "count": 7
+  },
+  {
+    "sector": "Transportation & Logistics",
+    "count": 4
+  },
+  {
+    "sector": "Travel & Tourism",
+    "count": 4
+  },
+  {
+    "sector": "Biotech & Pharmaceuticals",
+    "count": 3
+  },
+  {
+    "sector": "Consumer Services",
+    "count": 2
+  },
+  {
+    "sector": "Construction, Repair & Maintenance",
+    "count": 2
+  },
+  {
+    "sector": "Telecommunications",
+    "count": 1
+  },
+  {
+    "sector": "Aerospace & Defense",
+    "count": 1
+  }
+]
