@@ -6,7 +6,7 @@ date: 10-13-2025
 
 # Overview
 Perhaps this has already been done - but I've been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I'll list below. 
-I have my own private dataset from the past two years I've been curating, but the most recent update that's more comprehensive is from the public 2017 CMAP dataset - more info below.
+I have a very small private dataset of recent job titles / descriptions, but the most comprehensive info exists within a recently published public dataset called CMAP.
 
 ---
 
