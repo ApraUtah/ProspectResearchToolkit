@@ -4,10 +4,16 @@ author: Greg Brooks
 date: 10-13-2025
 ---
 
+::: {.column-margin}
+
+![...](https://i.postimg.cc/RFSjMhzc/pr-jobtitles-over10.png)
+:::
+
 # Overview
 Perhaps this has already been done - but I've been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I'll list below. 
+I have my own private dataset from the past two years I've been curating, but the most recent update that's more comprehensive is from the public 2017 CMAP dataset - more info below.
 
-## 📊 Dataset Summary: PRSPDEV Job Titles CMAP 2017 – All Sectors
+## CMAP Prospect Research Subset
 
 ### General Statistics
 - **Total Records**: `430`
@@ -15,37 +21,6 @@ Perhaps this has already been done - but I've been working on creating a fundrai
 - **Unique Sectors**: `22`
 
 ---
-
-### Top 10 Most Frequent Simplified Titles
-
-Simplified TitleFrequencyResearch Assistant21Research Manager19Research Analyst17Research Director17| Research Intern          | 14        |
-| Manager                  | 14        |
-| Research Officer         | 13        |
-| Research Associate       | 12        |
-| Research Coordinator     | 10        |
-| Prospect Researcher      | 10        |
-
----
-
-### Record Distribution by Sector
-
-SectorRecordsNon-Profit113Education58Business Services52Information Technology32Health Care31| Arts, Entertainment & Recreation   | 23      |
-| Finance                            | 18      |
-| Media                              | 17      |
-| Government                         | 15      |
-| Accounting & Legal                 | 15      |
-| Oil, Gas, Energy & Utilities       | 10      |
-| Retail                             | 8       |
-| Real Estate                        | 7       |
-| Manufacturing                      | 7       |
-| Insurance                          | 7       |
-| Transportation & Logistics         | 4       |
-| Travel & Tourism                   | 4       |
-| Biotech & Pharmaceuticals          | 3       |
-| Consumer Services                  | 2       |
-| Construction, Repair & Maintenance| 2       |
-| Telecommunications                 | 1       |
-| Aerospace & Defense                | 1       |
 
 ## CMAP 2017
 Direct links: 
@@ -59,8 +34,8 @@ from the CMAP readme.
 
 Quoting from the [paper](https://www.nature.com/articles/s41597-025-05526-3#Abs1):
 
-"We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017. However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category"
-This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.
+"We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017. However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category
+This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science."
 
 - So there are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche's, something especially difficult given the variety of titles especially for Major Gift Officers.
 - I have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.

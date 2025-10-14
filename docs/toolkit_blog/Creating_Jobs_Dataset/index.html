@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:site_name" content="Prospect Research Toolkit">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed slimcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -215,6 +215,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
+  <li><a href="#cmap-prospect-research-subset" id="toc-cmap-prospect-research-subset" class="nav-link" data-scroll-target="#cmap-prospect-research-subset">CMAP Prospect Research Subset</a>
+  <ul class="collapse">
+  <li><a href="#general-statistics" id="toc-general-statistics" class="nav-link" data-scroll-target="#general-statistics">General Statistics</a></li>
+  </ul></li>
   <li><a href="#cmap-2017" id="toc-cmap-2017" class="nav-link" data-scroll-target="#cmap-2017">CMAP 2017</a>
   <ul class="collapse">
   <li><a href="#explainer" id="toc-explainer" class="nav-link" data-scroll-target="#explainer">Explainer</a></li>
@@ -224,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -257,9 +261,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level1">
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://i.postimg.cc/RFSjMhzc/pr-jobtitles-over10.png" class="img-fluid figure-img"></p>
+<figcaption>…</figcaption>
+</figure>
+</div>
+</div></div><section id="overview" class="level1">
 <h1>Overview</h1>
-<p>Perhaps this has already been done - but I’ve been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I’ll list below.</p>
+<p>Perhaps this has already been done - but I’ve been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I’ll list below. I have my own private dataset from the past two years I’ve been curating, but the most recent update that’s more comprehensive is from the public 2017 CMAP dataset - more info below.</p>
+<section id="cmap-prospect-research-subset" class="level2">
+<h2 class="anchored" data-anchor-id="cmap-prospect-research-subset">CMAP Prospect Research Subset</h2>
+<section id="general-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="general-statistics">General Statistics</h3>
+<ul>
+<li><strong>Total Records</strong>: <code>430</code></li>
+<li><strong>Unique Job Titles</strong>: <code>113</code></li>
+<li><strong>Unique Sectors</strong>: <code>22</code></li>
+</ul>
+<hr>
+</section>
+</section>
 <section id="cmap-2017" class="level2">
 <h2 class="anchored" data-anchor-id="cmap-2017">CMAP 2017</h2>
 <p>Direct links: - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv">Prospect Development job titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_nonprofitsector_titles_CMAP_2017.csv">Major Gift Officer nonprofit sector titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_ALLSECTORS_unfinished_CMAP_2017_dataset.csv">Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better</a></p>
@@ -267,7 +291,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="explainer">Explainer</h3>
 <p>I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.</p>
 <p>Quoting from the <a href="https://www.nature.com/articles/s41597-025-05526-3#Abs1">paper</a>:</p>
-<p>“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017. However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category” This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.</p>
+<p>“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017. However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”</p>
 <ul>
 <li><p>So there are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.</p></li>
 <li><p>I have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.</p></li>
