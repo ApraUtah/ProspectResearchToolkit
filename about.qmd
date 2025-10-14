@@ -31,13 +31,13 @@ There are plenty of excellent paid resources available: Apra, private consultant
 
 ## Who is this guy anyway?
 
-I come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. I'm hoping to collaborate with others to expand this field guide and toolkit, especially on a formal level as a joint project between regional Apra chapters. [Click here](https://github.com/orgs/ApraUtah/projects/1) to see the features / goals currently being worked on!
+I come from a psychology background and am largely self-taught in data analytics, information science, data science, etc. So keep an eye out for mistakes, and feel free to let me by [raising an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) on our (Github issue page)[https://github.com/ApraUtah/ProspectResearchToolkit/issues].
 
 ## How often is the website updated?
 
-In small ways, frequently! Larger changes and resources are on a slower schedule, since I'm doing this in my free time. I expect to have more tutorials, resources, and tools online by 2026.
+In small ways, frequently! Larger changes and resources are on a slower schedule, since I'm doing this in my free time. I expect to have more tutorials, resources, and tools online by 2026. [Click here](https://github.com/orgs/ApraUtah/projects/1) to see the features / goals currently being worked on!
 
 ## How is Apra Utah involved?
 
-I started this website as part of my education initiative for 2025 while I'm serving on the Apra Utah board. In the future (e.g. when I figure out how to do it without breaking too many things) the repository and website name will be changed to a more general one, with participating Apra chapters listed on the website's About page. The dream would be to have an open-source collective of contributors / volunteers who help maintain the project and add to its longevity, since right now it is almost entirely a one-man show.
+I started this website as part of my education initiative for 2025 while I'm serving on the Apra Utah board. In the future (e.g. when I figure out how to do it without breaking too many things) the repository and website name will be changed to a more general one, with participating Apra chapters listed on the website's About page. The dream would be to have an open-source collective of contributors / volunteers who help maintain the project and add to its longevity, since right now it is almost entirely a one-man show. 
 
