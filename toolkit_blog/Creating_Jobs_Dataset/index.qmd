@@ -7,6 +7,46 @@ date: 10-13-2025
 # Overview
 Perhaps this has already been done - but I've been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I'll list below. 
 
+## 📊 Dataset Summary: PRSPDEV Job Titles CMAP 2017 – All Sectors
+
+### General Statistics
+- **Total Records**: `430`
+- **Unique Job Titles**: `113`
+- **Unique Sectors**: `22`
+
+---
+
+### Top 10 Most Frequent Simplified Titles
+
+Simplified TitleFrequencyResearch Assistant21Research Manager19Research Analyst17Research Director17| Research Intern          | 14        |
+| Manager                  | 14        |
+| Research Officer         | 13        |
+| Research Associate       | 12        |
+| Research Coordinator     | 10        |
+| Prospect Researcher      | 10        |
+
+---
+
+### Record Distribution by Sector
+
+SectorRecordsNon-Profit113Education58Business Services52Information Technology32Health Care31| Arts, Entertainment & Recreation   | 23      |
+| Finance                            | 18      |
+| Media                              | 17      |
+| Government                         | 15      |
+| Accounting & Legal                 | 15      |
+| Oil, Gas, Energy & Utilities       | 10      |
+| Retail                             | 8       |
+| Real Estate                        | 7       |
+| Manufacturing                      | 7       |
+| Insurance                          | 7       |
+| Transportation & Logistics         | 4       |
+| Travel & Tourism                   | 4       |
+| Biotech & Pharmaceuticals          | 3       |
+| Consumer Services                  | 2       |
+| Construction, Repair & Maintenance| 2       |
+| Telecommunications                 | 1       |
+| Aerospace & Defense                | 1       |
+
 ## CMAP 2017
 Direct links: 
 - [Prospect Development job titles](https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv)
