@@ -21,6 +21,8 @@ software_term_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_jo
 
 jobs <- 22
 
+jobtitle_pr_dataset <- data.frame(read_csv("../ProspectResearchToolkit/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv"))
+
 
 ```
 
@@ -55,7 +57,24 @@ geom_bar(stat = "identity", fill = "blue") +
 theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
+# Job title dataset
 
+## Row
+```{r}
+cat("title=", "Prospect Dev job titles / frequency from public CMAP dataset")
+datatable(jobtitle_pr_dataset)
+
+
+```
+```{r}
+cat("title=", "Job title chart (>10 instances)")
+
+top_PR_titles <- jobtitle_pr_dataset[jobtitle_pr_dataset$frequency_cleaned>10,]
+
+ggplot(data = top_PR_titles, aes(x = title_cleaned, y= frequency_cleaned)) + 
+geom_bar(stat = "identity", fill = "red") +
+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
 
 
 # Future dashboard elements

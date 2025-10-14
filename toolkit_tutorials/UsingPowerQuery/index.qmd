@@ -35,7 +35,7 @@ In essence, Power Query simplifies data preparation, enabling users to focus on 
 ## Use-cases
 Your workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.
 
-### Scenario 1
+### Abstrqct Example
 You have data in your CRM that you want to combine with another dataset you've found or created. For example, perhaps you've created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.
 
 ### Steps to Achieve This
@@ -47,15 +47,14 @@ You have data in your CRM that you want to combine with another dataset you've f
 
 More complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI
 
-~
-Example from the Fundraising Job Title dataset project:
+# Example from the Fundraising Job Title dataset project
 
 
-# Power Query M Code for Filtering Job Titles with Dynamic Keywords
+## Power Query M Code for Filtering Job Titles with Dynamic Keywords
 
 This document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to **Major Gifts** while excluding irrelevant ones.
 
-## Dynamic Keyword Parameters
+### Dynamic Keyword Parameters
 Instead of hardcoding the keywords, we define them as parameters:
 
 ```m
@@ -64,7 +63,7 @@ let
     ExcludeKeywords = Text.Split("Prospect Research,Event", ",")
 ```
 
-## Load and Filter Nonprofit Dataset
+### Load and Filter Nonprofit Dataset
 We load the nonprofit dataset and filter it using the dynamic keyword lists:
 
 ```m
@@ -84,7 +83,7 @@ We load the nonprofit dataset and filter it using the dynamic keyword lists:
     TitleList = Table.SelectColumns(FinalFilteredRows, {"title_cleaned"}),
 ```
 
-## Reusable Filtering Function
+### Reusable Filtering Function
 We define a reusable function to apply the same filtering logic to other datasets:
 
 ```m
@@ -106,7 +105,7 @@ We define a reusable function to apply the same filtering logic to other dataset
             Matched,
 ```
 
-## Dataset Paths and Execution
+### Dataset Paths and Execution
 We list all dataset paths and apply the filtering function:
 
 ```m
@@ -141,6 +140,6 @@ in
     CombinedResults
 ```
 
-## Summary
+### Summary
 This script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values.
 
