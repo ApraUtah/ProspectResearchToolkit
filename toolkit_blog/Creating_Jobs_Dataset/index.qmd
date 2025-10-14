@@ -4,14 +4,41 @@ author: Greg Brooks
 date: 10-13-2025
 ---
 
-::: {.column-margin}
-
-![...](https://i.postimg.cc/RFSjMhzc/pr-jobtitles-over10.png)
-:::
-
 # Overview
 Perhaps this has already been done - but I've been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I'll list below. 
 I have my own private dataset from the past two years I've been curating, but the most recent update that's more comprehensive is from the public 2017 CMAP dataset - more info below.
+
+```{r}
+# Load required libraries
+library(ggplot2)
+library(dplyr)
+
+# Create the data frame manually (based on the JSON data)
+sector_data <- data.frame(
+  sector = c("Non-Profit", "Education", "Business Services", "Information Technology",
+             "Health Care", "Arts, Entertainment & Recreation", "Finance", "Media",
+             "Government", "Accounting & Legal", "Oil, Gas, Energy & Utilities", "Retail",
+             "Real Estate", "Manufacturing", "Insurance", "Transportation & Logistics",
+             "Travel & Tourism", "Biotech & Pharmaceuticals", "Consumer Services",
+             "Construction, Repair & Maintenance", "Telecommunications", "Aerospace & Defense"),
+  count = c(113, 58, 52, 32, 31, 23, 18, 17, 15, 15, 10, 8, 7, 7, 7, 4, 4, 3, 2, 2, 1, 1)
+)
+
+# Compute percentages
+sector_data <- sector_data %>%
+  mutate(percent = count / sum(count) * 100,
+         ypos = cumsum(percent) - 0.5 * percent)
+
+# Create donut chart
+ggplot(sector_data, aes(x = 2, y = percent, fill = sector)) +
+  geom_bar(stat = "identity", width = 1, color = "white") +
+  coord_polar("y", start = 0) +
+  xlim(0.5, 2.5) +
+  theme_void() +
+  theme(legend.position = "right") +
+  labs(title = "Distribution of Records per Sector") +
+  guides(fill = guide_legend(ncol = 1))
+```
 
 ## CMAP Prospect Research Subset
 
