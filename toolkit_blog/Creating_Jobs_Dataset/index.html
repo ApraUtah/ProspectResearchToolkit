@@ -70,12 +70,33 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="../../site_libs/plotly-binding-4.11.0/plotly.js"></script>
+
+<script src="../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+
+<script src="../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+
+<link href="../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+
+<link href="../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+
+<script src="../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
 
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Creating the Fundraising Jobs Dataset (round 1) – Prospect Research Toolkit">
 <meta property="og:description" content="A prospect research resource library created by Greg Brooks and Apra Utah">
+<meta property="og:image" content="https://aprautah.github.io/ProspectResearchToolkit/toolkit_blog/Creating_Jobs_Dataset/pr_jobtitles_over10.png">
 <meta property="og:site_name" content="Prospect Research Toolkit">
+<meta property="og:image:height" content="960">
+<meta property="og:image:width" content="1536">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -215,9 +236,16 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
+  <li><a href="#cmap-prospect-research-subset" id="toc-cmap-prospect-research-subset" class="nav-link" data-scroll-target="#cmap-prospect-research-subset">CMAP Prospect Research Subset</a>
+  <ul class="collapse">
+  <li><a href="#general-statistics" id="toc-general-statistics" class="nav-link" data-scroll-target="#general-statistics">General Statistics</a></li>
+  </ul></li>
   <li><a href="#cmap-2017" id="toc-cmap-2017" class="nav-link" data-scroll-target="#cmap-2017">CMAP 2017</a>
   <ul class="collapse">
   <li><a href="#explainer" id="toc-explainer" class="nav-link" data-scroll-target="#explainer">Explainer</a></li>
+  <li><a href="#drawbacks-to-my-analysis-so-far" id="toc-drawbacks-to-my-analysis-so-far" class="nav-link" data-scroll-target="#drawbacks-to-my-analysis-so-far">Drawbacks to my analysis so far</a></li>
+  <li><a href="#further-resources" id="toc-further-resources" class="nav-link" data-scroll-target="#further-resources">Further resources</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -259,22 +287,62 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>Perhaps this has already been done - but I’ve been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I’ll list below.</p>
+<p>Perhaps this has already been done - but I’ve been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I’ll list below. I have my own private dataset from the past two years I’ve been curating, but the most recent update that’s more comprehensive is from the public 2017 CMAP dataset - more info below.</p>
+<hr>
+<section id="cmap-prospect-research-subset" class="level2">
+<h2 class="anchored" data-anchor-id="cmap-prospect-research-subset">CMAP Prospect Research Subset</h2>
+<section id="general-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="general-statistics">General Statistics</h3>
+<ul>
+<li><strong>Total Records</strong>: <code>430</code></li>
+<li><strong>Unique Job Titles</strong>: <code>113</code></li>
+<li><strong>Unique Sectors</strong>: <code>22</code></li>
+</ul>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-16d33a84ada028554f06" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-16d33a84ada028554f06">{"x":{"visdat":{"4c5c581e15c5":["function () ","plotlyVisDat"]},"cur_data":"4c5c581e15c5","attrs":{"4c5c581e15c5":{"labels":{},"values":{},"textinfo":"label+value","insidetextorientation":"radial","hole":0.40000000000000002,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"pie"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Distribution of Job Titles per Sector","showlegend":true,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"labels":["Non-Profit","Education","Business Services","Information Technology","Health Care","Arts, Entertainment & Recreation","Finance","Media","Government","Accounting & Legal","Oil, Gas, Energy & Utilities","Retail","Real Estate","Manufacturing","Insurance","Transportation & Logistics","Travel & Tourism","Biotech & Pharmaceuticals","Consumer Services","Construction, Repair & Maintenance","Telecommunications","Aerospace & Defense"],"values":[113,58,52,32,31,23,18,17,15,15,10,8,7,7,7,4,4,3,2,2,1,1],"textinfo":"label+value","insidetextorientation":"radial","hole":0.40000000000000002,"type":"pie","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(255,255,255,1)"}},"frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>```</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./pr_jobtitles_over10.png" class="img-fluid figure-img"></p>
+<figcaption>…</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+</section>
 <section id="cmap-2017" class="level2">
 <h2 class="anchored" data-anchor-id="cmap-2017">CMAP 2017</h2>
-<p>Direct links: - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv">Prospect Development job titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_nonprofitsector_titles_CMAP_2017.csv">Major Gift Officer nonprofit sector titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_ALLSECTORS_unfinished_CMAP_2017_dataset.csv">Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better</a></p>
 <section id="explainer" class="level3">
 <h3 class="anchored" data-anchor-id="explainer">Explainer</h3>
 <p>I’ve attempted to subset Prospect Development and Major Gift Officer job titles from the 2025 Career Map (CMap) dataset released in July 2025 (citation below) from the CMAP readme.</p>
 <p>Quoting from the <a href="https://www.nature.com/articles/s41597-025-05526-3#Abs1">paper</a>:</p>
-<p>“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017. However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category” This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.</p>
+<p>“We generated our dataset by utilizing a collection of 220 million anonymized and publicly available user curriculum vitae (CVs), collected from LinkedIn via DataHut24. These CVs encompass a total of 546 million job experiences spanning 197 countries and 24 industry sectors. While the dataset itself was collected in 2017, the career histories recorded within these CVs extend as far back as 1970, capturing job trajectories of individuals whose professional experiences span multiple decades, up to December 2017.</p>
+<p>However, given the noisy nature of the data, substantial pre-processing was required to ensure consistency and usability. The job titles appeared in a variety of formats, often containing spelling variations, abbreviations, or redundant information. Furthermore, sector classifications were inferred rather than explicitly provided, requiring additional processing to associate each job experience with a standardized industry category This repository provides a comprehensive and scalable dataset for analyzing job titles, promotions, and sector specialization across 24 major industry sectors and 197 countries. It is designed for research in career mobility, labor economics, workforce analytics, and computational social science.”</p>
+<p><em>Tangent:</em> You’ll notice that “Prospect Researcher” is the most common job title, by far, for that niche, and ends up becoming their standardized term for that role at a junior level. However, as soon as you add the word “analyst” to the title (e.g.&nbsp;Senior Prospect Research Analyst), that word becomes the standard - so Senior Prospect Research Analysts become standardized into Senior Analysts. This was useful for their analysis, but to properly understand how many “Prospect Researchers” there are - those aggregates will have to be recalculated using a more ecclectic definition. However, given the massive overlap between these niche Prospect Dev roles, perhaps the best aggregate is actually “Prospect Development Professional” to get more accurate totals from the dataset.</p>
+</section>
+<section id="drawbacks-to-my-analysis-so-far" class="level3">
+<h3 class="anchored" data-anchor-id="drawbacks-to-my-analysis-so-far">Drawbacks to my analysis so far</h3>
 <ul>
-<li><p>So there are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.</p></li>
-<li><p>I have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.</p></li>
-<li><p>I created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.</p></li>
-<li><p>In my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.</p></li>
-<li><p>I have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded <a href="https://doi.org/10.5281/zenodo.15260189">here</a>.</p></li>
-<li><p>Citation: Subhani, S., Memon, S.A. &amp; AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3</p></li>
+<li>There are some major caveats to both my datasets created: the Prospect Development job title one, and the Major Gift Officer one. Namely, I was struggling to filter the specific titles that match both of those niche’s, something especially difficult given the variety of titles especially for Major Gift Officers.</li>
+<li>I have included the PowerQuery M code in this repository, in case folks want to see my clumsy attempts to subset CMAP.</li>
+<li>I created a smaller dataset for the MGO niche, that only includes the non-profit sector. If you sort by frequency, you’ll see familiar titles at the top. The “title_generalized” column is arguably the most helpful, because it attempts to standardize the highly variable development officer roles into several categories.</li>
+<li>In my dataset filenames, I have been calling this CMAP 2017, to remind me that this is somewhat old data. But because of how comprehensive this data is, and because the methods and code are open-source, future dataset creation could follow in the same vein: the main limiting factor being the cost of purchasing public and anonymized CV data. There may be more recent public sector-specific datasets out there that could be appended to this one, or transformed to match their unique standardization system, and potentially avoid this cost.</li>
+<li>I have not uploaded the sector files or massive original dataset, to save on repo space, but they can be downloaded <a href="https://doi.org/10.5281/zenodo.15260189">here</a>.</li>
+</ul>
+</section>
+<section id="further-resources" class="level3">
+<h3 class="anchored" data-anchor-id="further-resources">Further resources</h3>
+<p>Direct links, if you want to download my filtered data from GitHub as .csv: - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/PRSPDEV_JobTitles_CMAP_2017_ALLSECTORS.csv">Prospect Development job titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_nonprofitsector_titles_CMAP_2017.csv">Major Gift Officer nonprofit sector titles</a> - <a href="https://github.com/ApraUtah/ProspectResearchToolkit/blob/main/data/job_titles/CMAP/cleanCMAP_dataset/MGO_ALLSECTORS_unfinished_CMAP_2017_dataset.csv">Major Gift Officer all sector titles - full of irrelevant titles right now, until I filter it better</a></p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ul>
+<li>Citation: Subhani, S., Memon, S.A. &amp; AlShebli, B. CMap: a database for mapping job titles, sector specialization, and promotions across 24 sectors. Sci Data 12, 1214 (2025). https://doi.org/10.1038/s41597-025-05526-3</li>
 </ul>
 
 
