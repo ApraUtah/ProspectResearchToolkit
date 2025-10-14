@@ -8,8 +8,7 @@ date: 10-13-2025
 Perhaps this has already been done - but I've been working on creating a fundraising job title and job description dataset. Right now it is scattered, has some irrelevant data, across a few in-progress attempts, which I'll list below. 
 I have my own private dataset from the past two years I've been curating, but the most recent update that's more comprehensive is from the public 2017 CMAP dataset - more info below.
 
-```{r}
-#| echo: false
+```{r echo=FALSE}
 # Load required libraries
 library(ggplot2)
 library(dplyr)
@@ -25,20 +24,22 @@ sector_data <- data.frame(
   count = c(113, 58, 52, 32, 31, 23, 18, 17, 15, 15, 10, 8, 7, 7, 7, 4, 4, 3, 2, 2, 1, 1)
 )
 
-# Compute percentages
+# Compute percentages and label positions
 sector_data <- sector_data %>%
   mutate(percent = count / sum(count) * 100,
+         label = paste0(sector, \"\\n\", count),
          ypos = cumsum(percent) - 0.5 * percent)
 
-# Create donut chart
+# Create donut chart with labels
 ggplot(sector_data, aes(x = 2, y = percent, fill = sector)) +
-  geom_bar(stat = "identity", width = 1, color = "white") +
-  coord_polar("y", start = 0) +
+  geom_bar(stat = \"identity\", width = 1, color = \"white\") +
+  coord_polar(\"y\", start = 0) +
   xlim(0.5, 2.5) +
   theme_void() +
-  theme(legend.position = "right") +
-  labs(title = "Distribution of Records per Sector") +
-  guides(fill = guide_legend(ncol = 1))
+  theme(legend.position = \"none\") +
+  geom_text(aes(y = ypos, label = label), color = \"black\", size = 3) +
+  labs(title = \"Distribution of Records per Sector\")
+
 ```
 
 ## CMAP Prospect Research Subset
