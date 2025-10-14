@@ -9,7 +9,21 @@ Perhaps this has already been done - but I've been working on creating a fundrai
 I have my own private dataset from the past two years I've been curating, but the most recent update that's more comprehensive is from the public 2017 CMAP dataset - more info below.
 
 ```{r echo=FALSE}
+library(jsonlite)
 
+# Load JSON data
+sector_data <- fromJSON("donut_chart_sector_distribution.json")
+
+# Convert to data frame
+df <- as.data.frame(sector_data)
+
+# Compute percentages
+df$percent <- round(df$count / sum(df$count) * 100, 1)
+labels <- paste0(df$sector, "\n(", df$count, ")")
+
+# Create donut chart using base R
+pie(df$percent, labels = labels, col = rainbow(length(df$sector)),
+    main = "Distribution of Records per Sector", radius = 1)
 ```
 
 ## CMAP Prospect Research Subset
