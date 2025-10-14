@@ -255,9 +255,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#powerquery-vs.-vlookup" id="toc-powerquery-vs.-vlookup" class="nav-link" data-scroll-target="#powerquery-vs.-vlookup">PowerQuery vs.&nbsp;VLookup</a></li>
   <li><a href="#use-cases" id="toc-use-cases" class="nav-link" data-scroll-target="#use-cases">Use-cases</a>
   <ul class="collapse">
-  <li><a href="#scenario-1" id="toc-scenario-1" class="nav-link" data-scroll-target="#scenario-1">Scenario 1</a></li>
+  <li><a href="#abstrqct-example" id="toc-abstrqct-example" class="nav-link" data-scroll-target="#abstrqct-example">Abstrqct Example</a></li>
   <li><a href="#steps-to-achieve-this" id="toc-steps-to-achieve-this" class="nav-link" data-scroll-target="#steps-to-achieve-this">Steps to Achieve This</a></li>
   </ul></li>
+  <li><a href="#example-from-the-fundraising-job-title-dataset-project" id="toc-example-from-the-fundraising-job-title-dataset-project" class="nav-link" data-scroll-target="#example-from-the-fundraising-job-title-dataset-project">Example from the Fundraising Job Title dataset project</a>
+  <ul class="collapse">
   <li><a href="#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords" id="toc-power-query-m-code-for-filtering-job-titles-with-dynamic-keywords" class="nav-link" data-scroll-target="#power-query-m-code-for-filtering-job-titles-with-dynamic-keywords">Power Query M Code for Filtering Job Titles with Dynamic Keywords</a>
   <ul class="collapse">
   <li><a href="#dynamic-keyword-parameters" id="toc-dynamic-keyword-parameters" class="nav-link" data-scroll-target="#dynamic-keyword-parameters">Dynamic Keyword Parameters</a></li>
@@ -265,6 +267,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#reusable-filtering-function" id="toc-reusable-filtering-function" class="nav-link" data-scroll-target="#reusable-filtering-function">Reusable Filtering Function</a></li>
   <li><a href="#dataset-paths-and-execution" id="toc-dataset-paths-and-execution" class="nav-link" data-scroll-target="#dataset-paths-and-execution">Dataset Paths and Execution</a></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -378,8 +381,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="use-cases" class="level2">
 <h2 class="anchored" data-anchor-id="use-cases">Use-cases</h2>
 <p>Your workflow may not require PowerQuery, it may be overkill. But given how much fiddling with Excel formulas can happen, and how that can eat up time, PowerQuery honestly seems like it should be more standard in our field - especially because of how reproducible any given process is - the steps being recorded automatically so they could be reused or made into a template.</p>
-<section id="scenario-1" class="level3">
-<h3 class="anchored" data-anchor-id="scenario-1">Scenario 1</h3>
+<section id="abstrqct-example" class="level3">
+<h3 class="anchored" data-anchor-id="abstrqct-example">Abstrqct Example</h3>
 <p>You have data in your CRM that you want to combine with another dataset you’ve found or created. For example, perhaps you’ve created a custom list of individuals who have won awards, but have not updated each of their individual profiles in the database yet. So you are looking to add this supplemental info to help segment a list in an interesting way.</p>
 </section>
 <section id="steps-to-achieve-this" class="level3">
@@ -392,21 +395,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Load the Combined Data</strong>: Once satisfied with the combined data, load it back into Excel for analysis or reporting.</li>
 </ol>
 <p>More complex data engineering can be done with PowerQuery, and business intelligence analytics with PowerBI</p>
-<p>~ Example from the Fundraising Job Title dataset project:</p>
 </section>
 </section>
-<section id="power-query-m-code-for-filtering-job-titles-with-dynamic-keywords" class="level1">
-<h1>Power Query M Code for Filtering Job Titles with Dynamic Keywords</h1>
+<section id="example-from-the-fundraising-job-title-dataset-project" class="level1">
+<h1>Example from the Fundraising Job Title dataset project</h1>
+<section id="power-query-m-code-for-filtering-job-titles-with-dynamic-keywords" class="level2">
+<h2 class="anchored" data-anchor-id="power-query-m-code-for-filtering-job-titles-with-dynamic-keywords">Power Query M Code for Filtering Job Titles with Dynamic Keywords</h2>
 <p>This document outlines a Power Query M script that dynamically loads keyword lists from parameters and filters job title datasets across multiple sectors. The goal is to identify roles related to <strong>Major Gifts</strong> while excluding irrelevant ones.</p>
-<section id="dynamic-keyword-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="dynamic-keyword-parameters">Dynamic Keyword Parameters</h2>
+<section id="dynamic-keyword-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="dynamic-keyword-parameters">Dynamic Keyword Parameters</h3>
 <p>Instead of hardcoding the keywords, we define them as parameters:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode m code-with-copy"><code class="sourceCode matlab"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">let</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="va">IncludeKeywords</span> <span class="op">=</span> <span class="va">Text</span>.<span class="va">Split</span>(<span class="st">"Major Gift,Director Of Development,Development Officer,Major Gift Officer,Fundraiser,Philanthropy Officer,Philanthropy Manager"</span><span class="op">,</span> <span class="st">","</span>)<span class="op">,</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="va">ExcludeKeywords</span> <span class="op">=</span> <span class="va">Text</span>.<span class="va">Split</span>(<span class="st">"Prospect Research,Event"</span><span class="op">,</span> <span class="st">","</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="load-and-filter-nonprofit-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="load-and-filter-nonprofit-dataset">Load and Filter Nonprofit Dataset</h2>
+<section id="load-and-filter-nonprofit-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="load-and-filter-nonprofit-dataset">Load and Filter Nonprofit Dataset</h3>
 <p>We load the nonprofit dataset and filter it using the dynamic keyword lists:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode m code-with-copy"><code class="sourceCode matlab"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>    <span class="va">Source</span> <span class="op">=</span> <span class="va">Csv</span>.<span class="va">Document</span>(<span class="va">File</span>.<span class="va">Contents</span>(<span class="st">"..\jobtitlesdataset\Figure 4\dataset\titles\map\55198385_nonprofit.csv"</span>)<span class="op">,</span> [<span class="va">Delimiter</span><span class="op">=</span><span class="st">","</span><span class="op">,</span> <span class="va">Columns</span><span class="op">=</span><span class="fl">7</span><span class="op">,</span> <span class="va">Encoding</span><span class="op">=</span><span class="fl">65001</span><span class="op">,</span> <span class="va">QuoteStyle</span><span class="op">=</span><span class="va">QuoteStyle</span>.<span class="va">None</span>])<span class="op">,</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="va">PromotedHeaders</span> <span class="op">=</span> <span class="va">Table</span>.<span class="va">PromoteHeaders</span>(<span class="va">Source</span><span class="op">,</span> [<span class="va">PromoteAllScalars</span><span class="op">=</span><span class="va">true</span>])<span class="op">,</span></span>
@@ -423,8 +427,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="va">FinalFilteredRows</span> <span class="op">=</span> <span class="va">Table</span>.<span class="va">SelectRows</span>(<span class="va">IncludedRows</span><span class="op">,</span> <span class="va">each</span> <span class="va">List</span>.<span class="va">AllTrue</span>(<span class="va">List</span>.<span class="va">Transform</span>(<span class="va">ExcludeKeywords</span><span class="op">,</span> (<span class="va">kw</span>) <span class="op">=&gt;</span> <span class="va">not</span> <span class="va">Text</span>.<span class="va">Contains</span>([<span class="va">title_cleaned</span>]<span class="op">,</span> <span class="va">kw</span>))))<span class="op">,</span></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="va">TitleList</span> <span class="op">=</span> <span class="va">Table</span>.<span class="va">SelectColumns</span>(<span class="va">FinalFilteredRows</span><span class="op">,</span> {<span class="st">"title_cleaned"</span>})<span class="op">,</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="reusable-filtering-function" class="level2">
-<h2 class="anchored" data-anchor-id="reusable-filtering-function">Reusable Filtering Function</h2>
+<section id="reusable-filtering-function" class="level3">
+<h3 class="anchored" data-anchor-id="reusable-filtering-function">Reusable Filtering Function</h3>
 <p>We define a reusable function to apply the same filtering logic to other datasets:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode m code-with-copy"><code class="sourceCode matlab"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>    <span class="va">FilterDataset</span> <span class="op">=</span> (<span class="va">filePath</span> <span class="va">as</span> <span class="va">text</span>) <span class="op">=&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>        <span class="va">let</span></span>
@@ -443,8 +447,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>        <span class="va">in</span></span>
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>            <span class="va">Matched</span><span class="op">,</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="dataset-paths-and-execution" class="level2">
-<h2 class="anchored" data-anchor-id="dataset-paths-and-execution">Dataset Paths and Execution</h2>
+<section id="dataset-paths-and-execution" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-paths-and-execution">Dataset Paths and Execution</h3>
 <p>We list all dataset paths and apply the filtering function:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode m code-with-copy"><code class="sourceCode matlab"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    <span class="va">DatasetPaths</span> <span class="op">=</span> {</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>        <span class="st">"..\jobtitlesdataset\Figure 4\dataset\titles\map\55198352_travel_and_tourism.csv"</span><span class="op">,</span></span>
@@ -476,11 +480,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="va">in</span></span>
 <span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="va">CombinedResults</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
 <p>This script dynamically loads keyword lists and applies consistent filtering across multiple datasets. It improves maintainability and scalability by avoiding hardcoded values.</p>
 
 
+</section>
 </section>
 </section>
 
