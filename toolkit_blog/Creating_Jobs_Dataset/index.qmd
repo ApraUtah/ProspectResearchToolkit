@@ -9,6 +9,7 @@ Perhaps this has already been done - but I've been working on creating a fundrai
 I have my own private dataset from the past two years I've been curating, but the most recent update that's more comprehensive is from the public 2017 CMAP dataset - more info below.
 
 ```{r}
+#| echo: false
 # Load required libraries
 library(ggplot2)
 library(dplyr)
