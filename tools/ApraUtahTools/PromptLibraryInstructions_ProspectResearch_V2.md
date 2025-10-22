@@ -1,5 +1,7 @@
 
-### Apra Utah Research Tracks V2 ###
+### Apra Utah Prompt Library Instructions and Research Tracks V2 ###
+**Roadmap: This needs to be cleaned up, and a secondary .csv with the actual prompts needs to be created. 
+
 ------------------------------------------------------------
 CATEGORY: General Background
 ------------------------------------------------------------
