@@ -1,5 +1,5 @@
 
-### Apra Utah Prompt Library ###
+### Apra Utah Prompt Library (v1.6) ###
 Can be used with Copilot and ChatGPT
 
 ------------------------------------------------------------
