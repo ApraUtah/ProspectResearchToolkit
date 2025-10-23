@@ -18,6 +18,7 @@ library(htmlwidgets)
 # save data to object
 softwarecompare_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_tool_comparisons.csv"))
 software_term_data <- data.frame(read_csv("../ProspectResearchToolkit/data/pr_jobs_dataset_softwarefreq_10-9-25.csv"))
+prompt_library <- data.frame(read_csv("../ProspectResearchToolkit/tools/ApraUtahTools/ProspectResearch_PromptLibrary/PR_PromptLibrary_v3.csv))
 
 jobs <- 22
 
@@ -106,4 +107,14 @@ list(
   color = "danger",
   value = jobs
 )
+```
+
+# Research LLM Prompt Library
+
+## Row
+```{r}
+cat("title=", "Prospect Research prompt library")
+
+datatable(prompt_library)
+
 ```
