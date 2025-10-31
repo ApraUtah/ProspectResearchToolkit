@@ -1,15 +1,15 @@
-PromptID|PromptType|PromptShortSummary|PromptGroup|PromptFulltext
-PROMPT-001|Instructional||Proofing|
-PROMPT-002|Generative||Public Research|
-PROMPT-003|Analytical||Data Wrangling|
-PROMPT-004|Transformative||Proofing|
-PROMPT-005|Exploratory||Public Research|
-PROMPT-006|Instructional||Data Wrangling|
-PROMPT-007|Generative||Proofing|
-PROMPT-008|Analytical||Public Research|
-PROMPT-009|Transformative||Data Wrangling|
-PROMPT-010|Exploratory||Public Research|
-PROMPT-011|Instructional||Proofing|
-PROMPT-012|Generative||Data Wrangling|
-PROMPT-013|Analytical||Public Research|
-PROMPT-014|Transformative||Proofing|
+PromptID|PromptType|PromptShortSummary|PromptGroup|PromptFulltext|
+PROMPT-001|Instructional||Proofing||
+PROMPT-002|Generative||Public Research||
+PROMPT-003|Analytical||Data Wrangling||
+PROMPT-004|Transformative||Proofing||
+PROMPT-005|Exploratory||Public Research||
+PROMPT-006|Instructional||Data Wrangling||
+PROMPT-007|Generative||Proofing||
+PROMPT-008|Analytical||Public Research||
+PROMPT-009|Transformative||Data Wrangling||
+PROMPT-010|Exploratory||Public Research||
+PROMPT-011|Instructional|Check fonts in Word doc|Proofing||
+PROMPT-012|Generative||Data Wrangling||
+PROMPT-013|Analytical||Public Research||
+PROMPT-014|Transformative||Proofing||
