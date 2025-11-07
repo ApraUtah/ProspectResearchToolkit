@@ -1,10 +1,10 @@
 ---
-title: "Let's talk data privacy"
+title: "Quarto Resources"
 author: Greg Brooks
-date: 10-1-2025
+date: 10-14-2025
 ---
 
-# Data Privacy and the Prospect Research Toolkit
+# Intro
 
 I wanted to explore a few issues of data privacy as they affect your average prospect development, management, or research professional.
 

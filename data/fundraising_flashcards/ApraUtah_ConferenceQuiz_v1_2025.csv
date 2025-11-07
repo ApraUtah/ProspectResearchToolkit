@@ -5,31 +5,31 @@ Question #,Question Text,Answer 1,Answer 2,"Answer 3
 (Optional)","Time Limit (sec)
 (Max: 300 seconds)","Correct Answer(s)
 (Only include Answer #)"
-1,What's 2 + 2?,4,3,1,Four,20,"1,4"
-2,What's 3 + 3?,3,6,,,15,2
-3,,,,,,,
-4,,,,,,,
-5,,,,,,,
-6,,,,,,,
-7,,,,,,,
-8,,,,,,,
-9,,,,,,,
-10,,,,,,,
-11,,,,,,,
-12,,,,,,,
-13,,,,,,,
-14,,,,,,,
-15,,,,,,,
-16,,,,,,,
-17,,,,,,,
-18,,,,,,,
-19,,,,,,,
-20,,,,,,,
-21,,,,,,,
-22,,,,,,,
-23,,,,,,,
-24,,,,,,,
-25,,,,,,,
+1,What are the main differences between prospect management and prospect research work?,"Copilot: Prospect research handles donor communications, while prospect management oversees event planning.","Prospect research is often reactive and service-based, focusing on capacity, professional background, and philanthropic interests, while prospect management is more proactive, guiding strategy and portfolio development.",,,15,"2"
+2,What obstacles exist in balancing a portfolio of prospects?,No process for handing off prospects,Low volume of qualified prospects,Low number of prospects in priority area,Excessive qualified prospects,15,"1,2,3,4"
+3,What is the right size for an average portfolio?,80 prospects minimum,50-75 prospects at largest,20 prospects maximum,150 prospects,15,2
+4,"When rating prospective donors, what does RFM stand for?","Relevance, Frequency, Money","Review, Friendship, Monetary","Recency, Frequency, Monetary Value","Response, Fundraising, Metrics",15,3
+5,"In project management, what is scope creep?",When project requirements go beyond the original objective,When project deadlines are met too soon,Unplanned resource addition,Increase in budget without approval,15,1
+6,,,,,,15,
+7,,,,,,15,
+8,,,,,,15,
+9,,,,,,15,
+10,,,,,,15,
+11,,,,,,15,
+12,,,,,,15,
+13,,,,,,15,2
+14,,,,,,15,3
+15,,,,,,15,2
+16,,,,,,15,3
+17,,,,,,13,1
+18,,,,,,13,2
+19,,,,,,13,4
+20,,,,,,13,4
+21,,,,,,13,4
+22,,,,,,13,4
+23,,,,,,13,2
+24,,,,,,13,3
+25,,,,,,13,1
 26,,,,,,,
 27,,,,,,,
 28,,,,,,,
