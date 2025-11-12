@@ -4,52 +4,120 @@ author: Greg Brooks
 date: 10-14-2025
 ---
 
-# Intro
+# Creating Internal Data Contracts: A Practical Guide
 
-I wanted to explore a few issues of data privacy as they affect your average prospect development, management, or research professional.
+## Introduction
+As organizations grow, data becomes increasingly complex and distributed across multiple teams and systems. Without clear agreements on how data is structured, maintained, and shared, teams risk miscommunication, broken pipelines, and unreliable analytics. **Internal data contracts** solve this problem by formalizing expectations between data producers and consumers—similar to API contracts, but for data.
 
-This toolkit, at least in the alpha stages, will be focused on tools that are available / compliant in the USA, simply because that's where I am based. Some resources mentioned here may not be available internationally, or may be subject to stricter privacy laws. 
+This post will cover:
+- What internal data contracts are
+- A sample contract template
+- Best practices for implementation
+- How they can apply to fundraising analysis teams
 
-Prospect researchers take ethics very seriously, and some of the tools or methods that are available in America - or some of the more experimental proactive research I prototype in this toolkit - may not be appropriate for every organization. 
+---
 
-These days, donor trust on an institutional level can be hard to gain and easy to lose. We exist in a difficult data privacy environment, where many competing interests are involved. I once had a job where leadership jokingly started referring to us prospect research and dev folks as "stalkers", including, to my horror, in the presence of donors that happened to be touring the building. 
+## What is an Internal Data Contract?
+An internal data contract is a documented agreement that defines:
+- **Schema**: The structure and types of data fields
+- **Quality guarantees**: Rules for completeness, accuracy, and freshness
+- **Ownership**: Who is responsible for producing and consuming the data
+- **Access and security**: Permissions and compliance requirements
+- **Change management**: How updates are communicated and versioned
 
-I had to eventually step up in a meetinasdfasdfsdfasdfg and attempt to explain that it was really a short-sighted way of getting a laugh, considering the damage it could cause to morale and with donor relations. Being a lowly analyst, I tried to be diplomatic - and hopefully succeeded. But the incident stands out in my mind as a good example of the natural tension that exists in prospect research: we need to be experts on donors, which means having an expert handle on donor data. We must use our expertise that complies with institutional bylaws, legal requirements, and the standards spelled out by our professional organizations. 
+These contracts reduce breakages, improve trust, and enable scalable data sharing across teams.
 
-Even when we are doing our best, however, those efforts may be perceived as invasive or inappropriate. It's easy to reframe the conversation with ourselves, of course, because we believe in the mission of our organization. Philanthropy benefits many stakeholders, but we also exist in a competitive funding environment, which means we have to chase down leads to a certain extent - before passing them on to front-line fundraisers. 
+---
 
-Still, there is a natural tension in our jobs - and one that merits discussion every year, as technology and laws change.
+## Sample Internal Data Contract Template
 
-## Data breaches
+**Title:** Customer Data Contract  
+**Version:** 1.0  
+**Owner:** Data Engineering Team  
+**Effective Date:** 2025-11-12  
 
-In May 2025, LexisNexis had a data breach that originated from an attacker accessing their Github account. Data breaches are unfortunately common, but they are also a smaller issue compared to the larger questions they tend to evoke: what info IS ethical to gather about individuals? Just because something is available, does not mean that it is ethical to use... of course, there is an interesting wrinkle to the digital ecosystem in which prospect researchers attempt to apply ethics: data brokers are not just vulnerable to breaches, they actively purchase or scrape breach data themselves. 
+---
 
-Breach data is sometimes considered "public", but that definition is used loosely by companies, similar to how AI companies have scraped both copywrighted works and public items on the internet - through a variety of means - with the argument that their final product is transformative enough to dodge legal challenges. 
+### 1. Purpose
+This contract defines the structure, quality, and governance of the `customer` dataset shared between the **CRM system** (producer) and **Analytics team** (consumer).
 
-One fascinating aspect of the fundraising industry is the fact that many of us tend to use tools (like LexisNexis) that live somewhat in the heart of an unfolding controversy - an ongoing worldwide conversation that can get quite heated. Don't get me wrong, I love using LexisNexis, but it's important to understand the technology we use, and to vet how data is curated. Ultimately, we don't have much power as analysts to impact these discussions, but it can help us gain fidelity in our understanding of the waters in which we swim - and when there is less mystery, even if we don't always like what we find, I think it can give a measure of confidence when making decisions.
+---
 
-There are countless round tables and think pieces and meetings about compliance, of course, that dig deeper into these issues - but I think it's important to point out the tensions or stressors that exist in a job. 
+### 2. Schema Definition
+| Field Name      | Data Type   | Nullable | Description                  |
+|-----------------|------------|----------|-----------------------------|
+| customer_id     | STRING     | No       | Unique customer identifier |
+| name            | STRING     | No       | Full name of the customer  |
+| email           | STRING     | No       | Customer email address     |
+| signup_date     | DATE       | No       | Date of account creation   |
+| status          | STRING     | Yes      | Active, Inactive, Pending  |
 
-## Data minimalism vs. Data maximalism
+**Versioning:**  
+- Backward-compatible changes allowed (adding new nullable fields).  
+- Breaking changes require **30-day notice** and version increment.
 
-It's hard to be a circumspect prospect researcher and abide by the ethos of "data minimalism" - the minimum viable amount of data to complete a research project on a prospective donor - when we swim in an ocean of tools and companies that rely on data maximalism as their core business model. 
+---
 
-## Research and emotions
+### 3. Data Quality Guarantees
+- **Freshness:** Data updated within 15 minutes of CRM changes.  
+- **Completeness:** 99% of records must have `email` populated.  
+- **Accuracy:** `status` must match CRM system values.
 
-For prospect researchers, they may feel conflicted about using AI tools or platforms that collate information from data brokers with black box methods that are subject to legal scrutiny (e.g. data privacy laws in California, or Europe). 
+---
 
-Research is not always a cold, logical, straightforward deal. I mean, when I first started as a prospect development analyst...I would find that reading too many obituaries in one day would make me feel kinda rough, especially if they were for individuals near my own age. 
+### 4. Ownership & Responsibilities
+- **Producer:** CRM Engineering Team  
+- **Consumer:** Analytics Team  
+- **Escalation:** Contact `data-support@company.com` for issues.
 
-What we research, and how we research, can have downstream effects on our moods-- positive or negative. Curiosity, for example, is an example of a positive trait that I think can accompany positive moods while researching - research can be quite fun! Alternatively, getting bogged down in a research rabbit hole without finding the answer to your key research question...while competing deadlines threaten to derail the session...not fun. 
+---
 
-Some folks are better at managing the "research posture", the way one mentally approaches the job, and I think it's one of the key skills that blends both hard and soft skills. 
+### 5. Access & Security
+- Data accessible via internal data warehouse with role-based permissions.  
+- PII fields (e.g., email) must comply with GDPR and internal privacy policies.
 
-What does this have to do with data privacy? Well, being compliant and training in ethics affects our research posture and how we react to different tools, use-cases, requests, or situations. 
+---
 
-In some cases, you may be put in a position where you are requested to find information about a donor that crosses a line - a request that often happens by accident - and it's important to understand your job well enough to educate others, even your supervisors sometimes, about the lines in the sand. 
+### 6. Change Management
+- All schema changes documented in the internal data catalog.  
+- Breaking changes require approval from both producer and consumer teams.
 
-# Conclusion
+---
 
-I'm still relatively new to the field. This toolkit may end up having some mistakes. If you spot something, or have a question about the ethics of a tool, I genuinely would love to talk about it - and perhaps that could be part of the discussion forum I've set up on Apra Utah's Github page. 
+## Best Practices for Internal Data Contracts
 
-As I learn more about data privacy laws and compliance, I'm hoping to update the Toolkit to line up as much as possible, while still being a creative and helpful resource for reactive and proactive research in the fundraising space.
+1. **Start Simple, Iterate**
+   Begin with critical datasets and expand as adoption grows.
+
+2. **Use Versioning**
+   Always version schemas to avoid breaking downstream systems.
+
+3. **Automate Validation**
+   Implement automated checks for schema compliance and data quality.
+
+4. **Centralize Documentation**
+   Maintain contracts in a shared repository or data catalog for visibility.
+
+5. **Define SLAs**
+   Include clear expectations for freshness, completeness, and uptime.
+
+6. **Communicate Changes Early**
+   Use automated alerts or Slack notifications for schema updates.
+
+7. **Enforce Ownership**
+   Assign clear owners for both producer and consumer sides.
+
+8. **Integrate with CI/CD**
+   Validate data contracts during deployment to catch issues before production.
+
+9. **Monitor & Audit**
+   Track compliance and log violations for continuous improvement.
+
+10. **Align with Governance**
+    Ensure contracts comply with regulatory and internal security standards.
+
+---
+
+## Applying Internal Data Contracts to Fundraising Analysis Teams
+*Placeholder: Explain how prospect research and development teams can use data contracts to ensure donor data consistency and reliability across CRM, wealth screening tools, and analytics platforms.*
+
