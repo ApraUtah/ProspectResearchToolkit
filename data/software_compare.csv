@@ -1,4 +1,4 @@
-ID,Tool Name,Tool Type,Tool Sub-types,Cost,Notes,Integrations, LinkToPage,SoftwareLastReviewed,Sponsorships
+ToolID,Tool Name,Tool Type,Tool Sub-types,Cost,Notes,Integrations, LinkToPage,SoftwareLastReviewed,Sponsorships
 PR-001,DonorSearch,Research,,Paid,,,,,NEDRA
 PR-002,AlumniFinder,Research,,Paid,,,,,
 PR-003,iWave / Kindsight,Research,,Paid,,,,,NEDRA
@@ -43,8 +43,8 @@ PR-36,FactSet Research Systems,Data Broker,,,,,,2025-11-10,
 PR-37,Mergent Intellect & Mergent Online,Research,Company Info,,"Extensive business info, but Mergent Intellect arguably has one of the best executive searches, letting you export files with hundreds of executives, including their company phone number",,,2025-11-10,
 PR-38,PitchBook,Research,Company Info,,"PitchBook allows you to search private equity and investors, venture capital deals, and information on mergers and acquisitions. Using real time data, their emerging spaces feature discloses upcoming investor trends, and the market map feature allows you to map out existing or emerging markets",,,2025-11-10,
 PR-39,PrivCo,Research,Company Info,,"PrivCo is a source for business and financial data on non-publicly traded corporations, including family owned, private equity owned, venture backed, and international unlisted companies.",,,2025-11-10,
-PR-40,,,,,,,,,
-PR-41,,,,,,,,,
+PR-40,ProspectAI (Dataro),Research,,,,,,,
+PR-41,ResearchRiley (GiveCampus),Research,,,,,,,
 PR-42,,,,,,,,,
 PR-43,,,,,,,,,
 PR-44,,,,,,,,,
