@@ -1,66 +1,14 @@
 ---
-title: "Library Databases for University Advancement Staffers"
+title: "unfinished PRSPCT-L Roundup"
 author: Greg Brooks
 date: 10-4-2025
 ---
 
-outlined by copilot, needs to be rewritten
-
-# Expanding Our Research Toolkit
-
-University libraries often pay for access to powerful databases and research platforms—many of which are underutilized by fundraising and advancement teams. These resources can provide valuable insights for prospect research, verification, and strategic decision-making. This post explores how we can better leverage these tools, understand their data sources, and even automate workflows to make research more efficient.
-
----
-
-## Potential Use Cases
-
-Identifying potential tools is fairly easy. The real challenge lies in defining **use cases** and determining how to **export and correlate information** from different systems. This process also helps us understand our data sources better. For example, many platforms—such as iWave, Factiva, and others—rely on Dun & Bradstreet data when compiling reports. Factiva even publishes a monthly update listing new sources, with a total of 30,000+ sources available.
-
----
-
-## Verification and “Spot Checks”
-
-A detailed list of tools gives us more confidence when verifying research. The reliability of any piece of information increases when it appears across multiple sources (e.g., two independent news articles confirming a job title). These tools can be great for **spot checks** when confirming details.
-
----
-
-## Addressing the “Black Box” Problem
-
-Most platforms aggregate data from large brokerages, but each has its own way of processing and presenting that information. For example, iWave uses proprietary techniques to build profiles. While these methods likely follow standard data science practices, the exact process is often unclear—this is known as the **“black box” problem**.
-
-We can reduce this uncertainty by:
-
-- Identifying as many sources as possible.
-- Understanding the data brokers behind those sources.
-- Drawing conclusions about how platforms transform raw data.
-
-This knowledge adds confidence to the reports we share internally and helps us explain where information originates—even if some steps remain opaque.
-
----
-
-## Original Research
-
-Some tools specialize in niche areas. For example, Pitchbook focuses on venture capital and startup funding rounds. This project may reveal which tools are best suited for specific research problems.
-
----
-
-## Multi-Channel Search
-
-Comparing results across multiple sources is a common practice for prospect researchers. Doing this manually across 20+ tools can be time-consuming. In OSINT (open-source intelligence), developers have created tools that search hundreds of sources simultaneously and categorize results. However, most OSINT tools aren’t ethical for prospect research because they rely on breach data or are designed for law enforcement.
-
-Our use case is different, so we’d need to build our own **multi-channel search solution** or support existing efforts like the Prospect Research Toolkit. Possible approaches include:
-
-- **Power Automate Desktop**: Create a flow that prompts for a search term and runs searches across selected channels (e.g., Privco, Mergent Online).
-- **Power Query Integration**: Automate data export and correlation for comprehensive reports. For example, if we have a list of names for an event, automation could pull data from multiple databases and compile it into a spreadsheet with columns for each source.
-
-Companies like **Xapien** already do advanced versions of this using custom algorithms and web scraping to verify information.
-
----
-
-## Next Steps
-
-We’re building a spreadsheet with links and feature comparisons for all tools under review. This will serve as a reference for choosing the right tool for the right research problem.
-
----
+A compilation of some of my favorite resources / comments / things I've learned from PRSPCT-L from 2025. 
+(still working on this!)
 
 
+
+
+#### References
+I've included links to the posts, so you can follow the original conversation. Not sure how folks would like me to attribute their contributions, so in lieu of posting names / job titles here, I figure folks can follow the links and log into PRSPCT-L to thank folks directly. In every case, I am transforming the content somehow, not directly quoting.
