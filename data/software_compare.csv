@@ -1,7 +1,7 @@
 ToolID,Tool Name,Tool Type,Tool Sub-types,Cost,Notes,Integrations, LinkToPage,SoftwareLastReviewed,Sponsorships
 PR-001,DonorSearch,Research,,Paid,,,,,NEDRA
 PR-002,AlumniFinder,Research,,Paid,,,,,
-PR-003,iWave / Kindsight,Research,,Paid,,,,,NEDRA
+PR-003,iWave / Kindsight,Research,,$4150,"$4150 for 1 license, 1500 screens, 750 live profiles. 3 users starts at $5350",,,11-17-2025,NEDRA
 PR-004,Allucian,CRM,,Paid,,,,,
 PR-005,Salesforce,CRM,,Paid,,,,,
 PR-006,Jira,Project Management,,Limited free tier,,,,,
