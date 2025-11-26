@@ -1,4 +1,5 @@
-# Donated Money Data
+# Donated Money Trends (from Gallup)
+(example of data, I think this was asking people about willingness to donate, it could be interesting to visualize some of these results - though I don't think we can publish the full datasets? just the charts? not high priority though)
 
 | Geography        | Time | Demographic | Demographic Value | Yes  | No   | DK/RF | N Size |
 |------------------|------|-------------|-------------------|------|------|-------|--------|
