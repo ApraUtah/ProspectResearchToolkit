@@ -1,0 +1,1 @@
+One place to gather info, sometimes including price for PR software: https://www.g2.com/categories/donor-prospect-research?utf8=%E2%9C%93&order=popular
