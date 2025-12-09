@@ -8,13 +8,21 @@
 title: Prospect Research Toolkit ERD
 ---
 erDiagram
-  A {
+
+%% ===TOOLS===
+  tools{
     int id PK
-    string name
+    str name
+    str type
+    int cost
+    str integrations
+    str notes
+    int company_id FK
+    numeric created_at
   }
-  B {
-    int id PK
-  }
-  A ||--o{ B : "has"
+  companies{}
+  university_tools{}
+  universities{}
+
 
 ```
